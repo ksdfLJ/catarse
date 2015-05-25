@@ -1,0 +1,14 @@
+pt:
+  shared:
+    menus:
+      user:
+        about: '关于我'
+        access_address: '数据和地址'
+        activity: '活动'
+        banking: '银行和卡'
+        contributions_history: '我的历史'
+        contributions_history_nav: '支持历史记录'
+        logged_as: '当前登录'
+        notifications: '消息'
+        project_contributions: '项目支持'
+        projects_created: '项目创建'

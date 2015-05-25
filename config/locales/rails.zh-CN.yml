@@ -202,9 +202,9 @@ zh-CN:
       short: "%b%d日 %H:%M"
     pm: 下午
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
-  activemodel:
-    errors:
-      <<: *errors
-  activerecord:
-    errors:
-      <<: *errors
+  # activemodel:
+  #   errors:
+  #     <<: *errors
+  # activerecord:
+  #   errors:
+  #     <<: *errors

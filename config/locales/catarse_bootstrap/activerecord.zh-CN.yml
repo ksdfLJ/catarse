@@ -1,0 +1,13 @@
+zh-CN:
+  activerecord:
+    errors:
+      models:
+        project:
+          attributes:
+            permalink:
+              invalid: "无效的项目链接地址"
+        user:
+          attributes:
+            email:
+              not_found: "电子邮件没有找到，请立即注册"
+              taken: "电子邮件已被占用"

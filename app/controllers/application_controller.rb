@@ -1,6 +1,6 @@
 # coding: utf-8
 class ApplicationController < ActionController::Base
-  AVAILABLE_LOCALES = ['pt']
+  AVAILABLE_LOCALES = ['pt', 'zh-CN']
 
   include Concerns::ExceptionHandler
   include Concerns::MenuHandler

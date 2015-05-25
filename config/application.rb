@@ -53,5 +53,8 @@ module Catarse
     # TODO: remove
     config.active_record.whitelist_attributes = false
 
+    # i18n
+    config.i18n.enforce_available_locales = false
+    config.i18n.available_locales = [:pt, :'zh-CN']
   end
 end

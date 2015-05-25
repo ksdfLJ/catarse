@@ -1,0 +1,16 @@
+pt:
+  shared:
+    feedback:
+      button: '反馈意见'
+      inputs:
+        submit: '发送反馈'
+        close: '关闭'
+      placeholders:
+        email: '电子邮件'
+        text: '写您的反馈'
+      texts:
+        title: "标题"
+        content: "最近几个月，我们一直在夜以继日地更新的一系列变化平台，详见文本 <a target='_blank' href='http://blog.catarse.me/os-passos-para-um-novo-catarse/' class='link-underline'> 特别职位</a>. 这将是真棒，如果我们能够从你，你正在考虑这种转变有什么听。 <br> 松开动词！"
+        response:
+          title: "哇! <br> 谢谢 ;)"
+          content: "我们珍视每一个收到的反馈意见不能回答每一个单独的，但仔细听每一个批评和建议，您的意见将是肯定我们走非常重要，将帮助我们不断在这里宣泄改善您的体验。"

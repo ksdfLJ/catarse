@@ -1,0 +1,49 @@
+zh-CN:
+  projects:
+    index_header:
+      subtitle: 基金项目的协作，成为更大一部分的东西。推进集体Catarse！你是缺少的部分在这个故事。
+      title: 让它发生，你相信的项目
+    index:
+      title: 'Catarse'
+      back_a_project: '支持项目'
+      banner_title: '进纸设计！'
+      see_all: '所有'
+      near_you: '你的附近'
+      recents: 最近
+      blog: 博客
+      expiring: 到期
+      recommended: 推荐
+      banner_subtitle: '音乐，漫画，电影，社会影响，技术和更多。相约，得到启发和支持的项目。'
+      box:
+        by: 按
+        when: 当
+      banner: "符合搜索"
+      explore: "探索工程"
+      links:
+        channels: "发现通道翅膀"
+        recommended: "探索工程推荐"
+        expiring: "发现项目"
+        recents: "查找最近的项目"
+        near: "发现你附近的项目"
+      sidebar:
+        titles:
+          blog: 博客
+          facebook: "关注我们fackbook"
+          newsletter: "订阅我们的新闻"
+          faq: "疑问"
+          schedule: 时间表
+        placeholders:
+          email: "输入您的电子邮件"
+        buttons:
+          newsletter: 发送信息
+      sections:
+        near:
+          title: '靠近我'
+        recommended:
+          title: '推荐'
+        expiring:
+          title: "最后阶段"
+        recents:
+          title: "最近"
+        channels:
+          title: '通道翅膀'

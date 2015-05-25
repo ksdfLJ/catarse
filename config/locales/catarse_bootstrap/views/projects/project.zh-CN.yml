@@ -1,0 +1,49 @@
+zh-CN:
+  projects:
+    project:
+      contributed: 贡献
+      reached: 获得
+      progress_html: "<span>%{percent}%</span> 资助"
+      time_remaining_small_html:
+        one: "<div class='fontsize-smallest lineheight-tightest'>%{count} %{unit}</div> <div class='fontsize-smallest lineheight-tightest'>停止</div>"
+        other: "<div class='fontsize-smallest lineheight-tightest'>%{count} %{unit}</div> <div class='fontsize-smallest lineheight-tightest'>等</div>"
+      time_remaining_html:
+        one: "<span>%{count} %{unit}</span> 停止"
+        other: "<span>%{count} %{unit}</span> 剩余"
+      pledged_html: "<span>%{value}</span> 退出"
+      display_status:
+        online: '在线'
+        expired: "过期"
+        rejected: "拒绝"
+        failed: "失败"
+        successful: 成功
+        approved: 批准
+        reached_goal: 达标
+        waiting_confirmation: 等待确认
+        waiting_funds: 等待资助
+        not_reached_goal: 没有达标
+        draft: "草案"
+        in_analysis: "审查"
+    card:
+      by: 由
+      remaining:
+        one: "停止"
+        other: "剩下"
+      contributed: 贡献
+      reached: 到达
+      progress_html: "<span>%{percent}%</span> 资助"
+      time_remaining_html:
+        one: "<span>%{count} %{unit}</span> 停止"
+        other: "<span>%{count} %{unit}</span> 剩余"
+      pledged_html: "<span>%{value}</span> 退出"
+      display_status:
+        expired: "过期"
+        rejected: "拒绝"
+        failed: "失资"
+        successful: "成功"
+        approved: 批准
+        reached_goal: 达标
+        waiting_funds: "等待确认"
+        not_reached_goal: 等待资助
+        draft: "草案"
+        in_analysis: "审查"
