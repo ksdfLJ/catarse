@@ -1,0 +1,21 @@
+en:
+  devise:
+    registrations:
+      new:
+        have_account_html: "拥有一个账户? <strong>%{link}</strong>"
+        titles:
+          site: '注册'
+          header: '注册'
+        links:
+          login: "登录"
+        form:
+          labels:
+            show_password: '显示密码'
+            name: '登录名'
+            password: '密码'
+            newsletter: '我想订阅Catarse的电子报刊'
+          hint:
+            password_length: '必须至少6个字符。'
+          inputs:
+            submit: '注册'
+            facebook: '使用Facebook登录'

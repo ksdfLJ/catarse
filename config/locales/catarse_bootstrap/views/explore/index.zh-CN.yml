@@ -1,0 +1,19 @@
+pt:
+  explore:
+    index:
+      success_follow: "现在你关注类别，将获得每周的新项目%{name}列表"
+      success_unfollow: "你没有关注这一类别 %{name}"
+      follow: 关注
+      unfollow: 取消关注
+      following: 追随者
+      categories: 分类
+      expiring: 最后阶段
+      in_funding: 融资
+      near: 预告
+      quick_explore: 快速检索
+      recent: 近期
+      recommended: 推荐
+      subtitle: 探索项目，发现那些触动你的心脏，做到这一点！
+      successful: 成功
+      title: 发现惊人的项目
+    title: 搜索项目

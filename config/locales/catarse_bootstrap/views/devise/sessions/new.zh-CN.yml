@@ -1,0 +1,17 @@
+en:
+  devise:
+    sessions:
+      new:
+        no_account_html: "需要一个帐户？"
+        titles:
+          site: '登录'
+          header: '登录'
+        links:
+          register: "注册"
+          forgot_password: "忘记密码"
+        form:
+          labels:
+            remember_me: '记住我'
+          inputs:
+            submit: '登录我'
+            facebook: '使用Facebook登录'

@@ -1,0 +1,15 @@
+en:
+  devise:
+    passwords:
+      new:
+        no_account_html: "需要一个帐户？"
+        titles:
+          site: '忘记密码？'
+          header: '忘记密码？'
+        links:
+          register: "注册"
+        form:
+          labels:
+            email: "我们会发送密码重置说明与您的帐户关联的电子邮件地址。"
+          inputs:
+            submit: '重置密码'

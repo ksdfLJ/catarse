@@ -1,0 +1,15 @@
+en:
+  deivse:
+    passwords:
+      edit:
+        titles:
+          site: '设置密码'
+          header: '设置密码'
+        form:
+          hint:
+            password_length: '必须至少6个字符。'
+          labels:
+            password: '新密码'
+            password_confirmation: '再次输入密码'
+          inputs:
+            submit: '记住我'
