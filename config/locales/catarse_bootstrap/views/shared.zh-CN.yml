@@ -1,0 +1,29 @@
+pt:
+  shared:
+    load_more: "加载更多"
+    terms: 使用条款
+    accept_terms_html: 我已阅读并同意%{link}.
+    header_channel:
+      contact: 联系人
+      logout: 退出
+      my_credits: 我的学分
+      partners: 我的学分
+      posts: 新闻
+      profile: 我的个人资料
+      signin: 登录
+      signup: 注册
+      submit: 发送项目
+      how_work: 它是如何工作
+    footer_channel:
+      contact: 联系人
+      how_works: 如何工作
+      privacy_policy: 隐私政策
+      terms: 使用条款
+      what_is_channel: 什么是渠道？
+      terms: "使用条款"
+      privacy_policy: "隐私政策"
+      how_it_works: "如何在%{name}"
+      how_channels_work: "理解渠道工作"
+      contact: "联系"
+    header_big:
+      projects: "我的项目"

@@ -1,0 +1,120 @@
+pt:
+  users:
+    profile:
+      user_since: "登录在%{date}"
+      no_project_contribution: "还没有支持的项目"
+      single_project_contribution: "一个支持项目"
+      multiple_project_contribution: "支持%{n_projects}项目"
+      single_project_created: "并创造了一个项目"
+      multiple_project_created: "而创造%{n_projects}项目"
+    contribution_row:
+      contributed_projects: "项目支持"
+      contribution_value: "支持度"
+      contribution_status: "支持状态"
+      reward: 奖励
+      no_reward: "你没有选择奖励"
+      delivery_estimate: "预计发货:"
+    card:
+      twitter_profile: "Twitter个人资料"
+      facebook_profile: "Facebook个人资料"
+      author_website: "站点"
+      contact_author: "送信"
+    failed_reactivation: "链接激活是无效的，请联系我们的团队。"
+    reactivated: "重新激活，欢迎回来，您的帐户已重新启动。"
+    project:
+      confirmed: "确认"
+      refunded: "退款"
+      requested_refund: "退款申请"
+      waiting_confirmation: "等待确认"
+      tell_about_this_contribution: 告诉世界了解您的支持!
+    credit_cards:
+      index:
+        last_digits: '一卡通'
+        brand: '操作员'
+        title: '信用卡'
+        remove: '删除'
+    credits:
+      modal:
+        title: '你真的想要求退还您的支持?'
+        text: "学习如何退款流程在Catarse:"
+        link: "退款规则和运作/退款"
+        reject_btn: "不，我要保持我的信用"
+        accept_btn: "是的，我要求退还我的支持"
+      index:
+        contribution_date: "支持数据"
+        current_credits_html: "您当前的余额是<span id=\"current_credits\">%{credits}</span>的积分。"
+        important_html: "对于所有的报销规则和程序，<a href='http://suporte.catarse.me/hc/pt-br/articles/202365507-Regras-e-funcionamento-dos-reembolsos-estornos' target='_blank'>点击此处</a>。如有任何问题，请访问我们的 <a href='http://suporte.catarse.me' target='_blank'>的支持</a>。"
+        project: 项目
+        refunded: "退还确认请求。将在4个工作日内与您联系。"
+        insufficient_credits: "您没有足够的积分来执行这种逆转。"
+        refunds_title: "赞助商谁可能做扣费"
+        request_refund: "申请退款"
+        requested_refund: "请求退款"
+        status: 状态
+        title: "我的信用"
+        value: 值
+      refund:
+        cannot_refund: "这种支持不能颠倒。"
+        error: "哎呀错误询问退款。"
+        no_credits: "您没有足够的积分来执行这种逆转。"
+        refunded: "退还这种支持已得到扭转。"
+        requested_refund: "你有没有问过拒付这种支持。"
+      title: "我的信用"
+    current_user_fields:
+      bank_account_title: "银行的详细信息"
+      bank_account_hint: "您的银行数据将被用来进行全额还款的支持，如果该项目没有达到目标的100％。"
+      my_facebook: '与Facebook的整合'
+      bio_limit: '超过140个字符'
+      updated: "您的资料已更新"
+      update_social_info: "更新信息"
+      social_info: "联系方式"
+      twitter: "twitter ( 用户 )"
+      facebook_link: "Facebook的个人主页 ( 完整链接 )"
+      other_link: "从它的网站链接"
+      change_password: "更改密码"
+      current_password_hint: "<i>对于要更改的密码，您需要确认您当前密码。</i>"
+      email_hint: "你的电子邮件是用于通信和发送你只支持他会不会是当你支持的项目在您的个人资料可见项目的宣泄，我们会给您的电子邮件，项目所有者，因此它可以提供的奖励。"
+      email_tooltip: "点击这里，填写您的电子邮件..."
+      gravatar_hint_html: "你也可以使用%{link}电子邮件<br>是简单的，只要发送图像，并且已经适用于其他网站，以及改变你的照片 ;)"
+      local_avatar: "我的头像"
+      submit_text: "选择你的照片"
+      submit: "发送"
+      my_data: "我的数据"
+      newsletter: "我希望通过电子邮件接收Catarse新闻"
+      password_hint: "<i>留空，如果你不想更改密码。</i>"
+      deactivate: "禁用我的帐户"
+      deactivate_notice: "账户%{name}已被禁用。"
+      deactivate_confirm: "你想禁用此帐户？"
+      deactivate_hint: "你所有的支持将转化为匿名的支持，您的数据将不可见，你会自动退出系统，您的帐户将被永久停用。"
+    unsubscribes:
+      projects_in_reminder: "与主动提醒项目:"
+      title: "选择哪些项目要收到通知:"
+      posts: "我想收到的项目更新"
+    show:
+      projects:
+        here: '这里'
+        no_projects: "%{name}尚未就宣泄任何项目是否灵感将达到其中之一。？"
+        no_projects_current_user_html: "你是不是在宣泄任何项目让灵感击中，然后点击%{link}开始!"
+        title: "项目 %{name}"
+        title_current_user: "我的项目"
+      contributions:
+        anonymous: "匿名的支持。"
+        no_contributions: "%{name}的不支持任何项目还没有，但我们知道这只是一个时间问题。 :D"
+        no_contributions_current_user_html: "你还没有任何支持的项目。如何<a href=\"/\">现在开始</a>?"
+        no_reward: "你没有选择任何报酬。"
+        title: "项目 %{name} 已支持"
+        title_current_user: "那些支持的项目"
+        your_reward: "您的奖励"
+      attention: "警告"
+      tabs:
+        credit_cards: '信用卡'
+        contributed_projects: "项目支持"
+        created_projects: "项目创建"
+        comments: 评论
+        credits: 积分
+        settings: 首选项
+        unsubscribes: 通知
+      user_social:
+        email: "给我发电子邮件"
+        facebook: "在Facebook上的档案"
+        twitter: "在Twitter上的档案"

@@ -1,0 +1,25 @@
+pt:
+  rewards:
+    form:
+      edit: "编辑奖励"
+      reward: 奖励
+      info_box: "你可以限制一个奖励的可用数量一旦达到极限，奖励将被标记为用尽交货的预测是你想如果你想改变以提供回报给支持者的日期。奖励，只需将他们在这里。试试吧！"
+      minimum_value: "最小值:"
+      deliver_at: "预计交货:"
+      description: "说明:"
+      limit_reward: "限价奖励"
+      available: "号码可用"
+      submit: "保存"
+    index:
+      select_reward: "选择这个奖励"
+      display_remaining: "%{remaining} 的 %{maximum} 可用"
+      dont_want: "我不希望奖励"
+      limited: 限制
+      sold_out: 缺货
+      contributions_to_confirm:
+        one: 足月确认1的支持。
+        other: "%{count} 计数支持确认"
+      edit_reward: 编辑奖励
+      new_reward: 登录奖励
+      reward_deliver_time: "<b>交货估计:</b> %{estimate}"
+      reward_title: 对于 %{minimum} 以上

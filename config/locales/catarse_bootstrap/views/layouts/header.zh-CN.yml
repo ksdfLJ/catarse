@@ -1,0 +1,20 @@
+pt:
+  layouts:
+    header:
+      blog: 博客
+      discover: 探索
+      faq: FAQ
+      help: 帮助
+      profile: 简介
+      projects: 项目
+      signin: 登录
+      signup: 注册
+      submit: 提交项目
+      search: 探索项目
+    login:
+      login_with_facebook: 使用facebook登录
+    user:
+      my_contributions: 我的贡献
+      logout: 退出
+      my_credits: 我的信用
+      refund_link: 退款链接

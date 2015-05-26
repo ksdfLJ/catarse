@@ -1,0 +1,17 @@
+pt:
+  found_singular: 发现
+  found_plural: 发现
+  project_singular: 项目
+  project_plural: 项目
+  contribution_singular: 支持者
+  contribution_plural: 支持者
+  remaining_singular: 休息
+  remaining_plural: 剩余
+  created_project:
+    zero: "尚未创建项目"
+    one: "%{count}项目中创建"
+    other: "%{count}创建的项目"
+  contributed_project:
+    zero: "尚不支持项目"
+    one: "支持%{count}项目"
+    other: "支持%{count}项目"

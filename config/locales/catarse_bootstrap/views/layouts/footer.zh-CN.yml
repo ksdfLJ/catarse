@@ -1,0 +1,33 @@
+pt:
+  layouts:
+    footer:
+      links:
+        jobs: 与我们合作
+        blog: 博客
+        contact: 联系我们
+        press: 新闻
+        discover: 探索项目
+        start: '工作方式'
+        expiring: 最后冲刺阶段
+        facebook: Facebook
+        faq: 帮助
+        guides: 指南
+        feedback: 反馈
+        github: Github
+        instagram: Instagram
+        near: 预告
+        press: 新闻
+        privacy: 隐私政策
+        recents: 最新
+        recommended: 推荐
+        submit: 启动项目
+        terms: 使用条款
+        twitter: Twitter
+      texts:
+        copyleft: Feito com amor.
+      titles:
+        about: 帮助
+        contact: 欢迎
+        newsletter: 订阅我们的新闻
+        sitemap: 浏览
+        social: 社交网络
