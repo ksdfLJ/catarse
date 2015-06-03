@@ -1,0 +1,31 @@
+zh-CN:
+  projects:
+    new:
+      page-title: "启动项目"
+
+      faq:
+        titles:
+          support: "支持"
+          know_more: "了解更多"
+
+        links:
+          criteria: "选择标准"
+          suport_central: "支援中心"
+          support_contact: "联系我们"
+          how_it_works: "作为Catarse工作?"
+          money: "我怎么得到的钱？"
+          selection: "如何选择项目？"
+          all_or_nothing: "为什么所有或没什么?"
+
+      form:
+        blocks:
+          first:
+            title: "欢迎！"
+            description: "请填写以下信息，以启动项目的草案。"
+
+        info:
+          permalink: http://catarse.me/
+          goal: R$
+          online_days: 天
+
+        submit: "保存并继续"

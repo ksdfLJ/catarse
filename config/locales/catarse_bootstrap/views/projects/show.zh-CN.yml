@@ -1,0 +1,101 @@
+zh-CN:
+  projects:
+    about_mobile:
+      by: '对于'
+      back: '< 返回'
+    project_embed:
+      insert: '将一个小部件在您的网站'
+    mobile_video:
+      read_more: "了解更多"
+    metrics:
+      titles:
+        confirmed_by_day: '总的支持证实了一天'
+        confirmed_amount_by_day: '每天收集合计'
+        address_state: 'T总的支持证实了国家'
+    reminder:
+      ok: 'Ok! 我们将通过电子邮件向您发送提醒运动“的结束48小时前'
+      active_btn: '记住我这个项目'
+      deactive_btn: '我不希望被人记住'
+    send_to_analysis: 您的项目已经发送到我们​​的团队。
+    send_to_analysis_error: 发送错误的项目进行分析。在填写所有必填字段。
+    push_to_online: 您的项目上线了!
+    push_to_online_error: 错误，同时将在线项目。在填写所有必填字段。
+    twitter:
+      take_a_look: 退出%{name}
+    video_embed:
+      a_project_by_html: 在一个项目%{link}
+    posts:
+      project_post:
+        exclusive: '独家专属邮政支持者。'
+        unavailable: 此新闻只提供给支持者。
+        contribute: 支持
+        unavailable_contribute: 这个项目进行查看。
+        destroy: 删除新
+        destroy_confirmation: 你要删除这条消息?
+      new:
+        notice: 新奇发送成功!
+        comment: 您的文本的新
+        exclusive: 仅可见的支持者
+        submit: 发送新
+        title: 你的总结
+        warning: 请记住，所有新奇后直接进入您的电子邮件他的支持者。在发送之前这么好审核您的文字。
+    project_reports:
+      all_contributions_without_reward: 下载报告中的所有支持者未选择奖励
+      link_reports_confirmed: 下载所有报告确认的支持者
+      link_reports_waiting_confirmation: 下载报告中的所有支持者印票
+      link_reward: 下载报告%{value}
+    project_about:
+      embed: < embed >
+      embed_title: 您的网站上输入此项目
+      active_btn: ' 记住我'
+      deactive_btn: '主动提醒'
+    show:
+      menu:
+        panel_html: "&nbsp;&nbsp;控制面板"
+        about: 关于
+        add_reward: 加入奖励
+        comments: 评论
+        contributions: 支持
+        metrics: 指标
+        edit: 编辑
+        reports: 报告
+        posts: 新闻
+    project_main:
+      post_call: '在公布每一个宣泄的消息是直接从那些谁支持你的项目，也可用于观看的网站发送的电子邮件。你可以选择让它公开，或只看到它的支持者在这里此标签。'
+      send_post: '写新闻'
+      share: "共享"
+      tweet: "鸣叫"
+      contribute_project:
+        display_status:
+          approved: "这个项目已通过宣泄不久，它将空气和准备接收的支持。"
+          online: "你可以支持这个项目，直到 %{date} às 23h59h59s"
+          failed: "E个项目还没有达到％{}目标最低为%{goal}  %{date} 并没有资助"
+          rejected: "这个项目是不接受你不能执行备份。"
+          in_analysis: "这个项目是在审查和尚未开放获得支持。"
+          successful: "这个项目是成功的，并资助%{date}"
+          waiting_funds: "这个项目的长期资金被关闭，我们正等待确认的最后一次付款的。"
+          draft: "这个项目只是一个草案，但仍无法得到支持。"
+        submit: 支持这个项目
+      project_by: 通过设计
+      funding_period: 活动期间
+      project_header:
+        subtitle_html: "一个项目 %{link}"
+        without_city: "一号工程"
+        with_city: "Um projeto de %{category_name} por %{author} em %{city}"
+      menu:
+        about: 关于
+        add_reward: 加入奖励
+        comments: 评论
+        contributions: 支持
+        metrics: 指标
+        edit: 编辑
+        reports: 报告
+        posts: 新闻
+      no_rewards_warning: 不旅行！想想你将如何解救他们，把一切这个预算。他答应了？！跟着! :D
+      no_rewards_warning_title: 在这里创建您的奖励
+      contribution_states:
+        confirmed: "确认"
+        pending: "待定"
+      sidebar:
+        contributions: 支持
+        goal: 打到%{total}

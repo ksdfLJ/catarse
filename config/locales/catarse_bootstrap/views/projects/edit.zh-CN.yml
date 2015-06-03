@@ -1,0 +1,175 @@
+zh-CN:
+  projects:
+    reward_fields:
+      edit: "编辑奖励"
+      reward: 奖励
+      info_box: "形容奖励的价值，把一个真正的交货日期预测的支持者您还可以限制一个奖励，当达到极限。如果你想改变的奖励出现在你的项目的顺序似乎已经用尽。只是拖动向上或向下做."
+      minimum_value: "值:"
+      deliver_at: "预计交货:"
+      description: "说明:"
+      limit_reward: "限价奖励"
+      available: "号码可"
+      submit: "保存"
+      index:
+        select_reward: "选择这个奖励"
+        display_remaining: "%{remaining}的%{maximum}最大可用"
+        dont_want: "我不希望奖励"
+        limited: 限制
+        sold_out: 缺货
+        contributions_to_confirm:
+          one: 足月确认1的支持.
+          other: "%{count}确认长期支持。"
+        edit_reward: 编辑奖励
+        new_reward: 登录奖励
+        reward_deliver_time: "<b>交货估计:</b> %{estimate}"
+        reward_title: 对于%{minimum}以上
+    dashboard_user_settings:
+       natural: "名义的全称"
+       juridical: "企业名称持有人"
+       title: "登记和银行数据"
+       subtitle_html: "......随着下面填写表格完成填充后您的项目将准备在空气中，单击总评分如果一切正常，只需按下发布按钮，开始你的活动!"
+       owner_document_natural: "公积金的银行账户持有人"
+       owner_document_juridical: "银行账户持有人的CNPJ"
+       user_data_title: "银行的详细信息"
+       user_data_subtitle_html: "这些数据将用于发放我们的发票和金钱在事件的传输您的项目是成功的."
+       account_subtitle_html: "我们需要下面的数据做一个财政转移成功的项目<b>警告: 该CPF / CNPJ注册信息和上市的银行信息必须是相同.</b>"
+       account_edit_disabled_html: "下面由您在发布你的项目的时候告知，以避免资金的传输错误的数据，该数据的问题被阻断，因此您的项目去住。如果你想改变他们，只是%{link} i说明你想要做的改变."
+       submit: "保存"
+    dashboard_home_templates:
+      status: "状态:"
+      project_numbers:
+        financed: 资助
+        backed: 上调
+        contributions: 支持
+        left: 剩余
+      waiting_funds:
+        title: "%{name}, 我们正在处理最后的付款."
+        subtitle_html: "他的项目完成了%{expires}正在等待确认单和付款由于票据的到期日，即有在该状态长达4天的最后一分钟获得支撑项目，日起开始项目终止。%{link}."
+        header: "从这里你的项目能够命中目标或看不到在每种情况下发生的事情:"
+        success: "我打的目标:"
+        failed: "不要打了目标:"
+        good_luck: "祝你好运!"
+      successful:
+        title: "%{name}, 庆祝你值得拥有!"
+        subtitle_html: "他的项目是成功的，现在是时候开始与其支持者工作关系特别注意奖励的交付交付许下一定要看到项目后段%{link1} 的时间，打听%{link2}. "
+        header1: "别忘了：透明度决定一切."
+        transparent_html: "保持一个明智的支持者就是即使你去通知失败或挫折的支持者高兴你是%{link} . 所以新标签使用和滥用(sempre com moderação) 以保持愉快的支持者什么...你在里面写在他们的支持者的邮箱来直，它将开始提供回报？在标签 \"relatórios\" 下载信息，这样就可以使你的项目的回报交付管理."
+        header2: "请务必阅读:"
+      rejected:
+        title: "%{name}, 不幸的是它是不是这个时候."
+        subtitle_html: "发你的项目进行宣泄的分析，我们知道，他不会与站点配置文件同意有一个下降的项目并不妨碍你送新项目进行评估或修改你的当前项目谈话推荐我们的服务！你好好看一看 %{link1}  e no %{link2}."
+      online:
+        title: "%{name}, 你的活动是在空气中!"
+        subtitle_html: "你的项目是在空中，他的竞选将结束一天 23hs59min59s do dia %{date}. 直到那一天和时间，你可能会得到支持，记住，这是全或无的，你只取如果收益..命中所设定的目标。请访问我们的%{link2}为进一步的问题!"
+        explanation_html: "
+<div class='fontsize-base u-marginbottom-40 card card-terciary'>
+                      <p class='fontweight-bold'>
+                        与空气中的项目，某些信息可能不再被编辑
+                      </p>
+                      <p>
+                        你不能改变:<br> - 你的目标捕捉;<br> - 截止日期;<br> - 该项目的URL;<br> - 用户项目业主.
+                      </p>
+                      <p class='fontweight-bold'>
+                        需要了解活动进程的详细信息？看到上侧的框。
+                      </p>
+                      <p>
+                        搜索{link1}对巴西的场景重要来源。一个良好的阅读%{link2}可以鼓舞人心。在那里，你会发现成功的项目案例和活动的建议。
+                      </p>
+                    </div>
+"
+      failed:
+        title: "%{name},不要气馁!"
+        subtitle_html: "你的项目没有击中目标，我们知道这是不是最好的感觉，但不要气馁面向过程作为学习，一定要招待第二次尝试，不要着急，所有的支持者将收到的钱回到。%{link}."
+        questions: "我们也发邮件给你两个小问题，如果你有时间和头部，这将是巨大的，如果你可以看看你的反馈有助于我们更好，更好的建立一个宣泄给你."
+      draft:
+        title: "%{name}, 生成项目!"
+        subtitle: "越谨慎，以及格式化为一个项目，它是成功的募捐活动之前将您的项目给我们分析的机会就越大，填写上面深情您可以将更改保存所有标签一次又一次返回到项目草案。当一切就绪后，单击发送按钮，我们将与您联系，以评估项目."
+        study_title: "他觉得需要更多的研究来构建项目退房旁边的框？链接."
+      approved:
+        title: "%{name}, 您的项目已被批准!"
+        subtitle_html: "把你的项目在空中只需要你填写所要求的数据％{链接1}标签重要的是要知道，我们收取的只是成功的项目收集总量的13％的费用了解 %{link2}. "
+      in_analysis:
+        title: "%{name}, 你送你的项目进行分析，并在4个工作日内收到我们的回复"
+        subtitle_html: "感谢我们的团队将审查项目的全部内容和多达4个工作日，你会收到一封电子邮件，告知如果被批准，拒绝或者是否会在分析持续一段时间，为您实现建议的调整。就拿这个时期的优势，收集与亲密的人的反馈!"
+    edit:
+      leave_link_html: "&nbsp; 控制面板退出"
+      start_tab: 首页
+      basics_tab: 基本
+      project_tab: 项目
+      posts_tab: 新闻
+      rewards_tab: 奖励
+      about_you_tab: 关于你
+      reports_tab: 报告
+      account_tab: 帐户
+      preview_tab: 预览
+      send: 发送
+      publish: 发布
+    dashboard_user_about:
+      submit: "保存"
+      title: "告诉我更了解你!"
+      subtitle: "支持者想了解更多关于该项目的主管联系，帮助讲述自己的故事总是受欢迎的. "
+      twitter_label: "Twitter的个人资料"
+      twitter_hint: "在您的个人资料粘贴链接"
+      other_link_label: "在Internet上"
+      other_link_hint: "包含链接，以帮助支持者理解为什么你是正确的人做这个项目. "
+      about_label: "关于你"
+      about_hint: "如果你想更好地描述你使用这个空间，您的公司或机构希望给予信贷使用企业视频的合作伙伴这个空间就是你的，用它作为你希望所有这些信息将出现在阿坝对您的公开信息."
+      facebook_link_label: "Facebook的个人主页"
+      facebook_link_hint: "在您的个人资料粘贴链接"
+      uploaded_image_label: "头像"
+      uploaded_image_hint: "此图片将作为您的个人资料(PNG, JPG tamanho ideal 280 x 280)"
+      name_label: "姓名"
+      name_hint: "你的名字公开可见的每个人都为这个项目的作者."
+    dashboard_reward:
+      submit: "保存"
+      title: "创建和编辑在这里您的奖励"
+      add_reward: "加入奖励"
+      subtitle: "这是你的节目感谢支持者请记住，包括承诺在他的预算报酬的费用，送货..！! "
+      reward: "奖励"
+    dashboard_preview:
+      header_subtitle: "这是时间的反馈!"
+      header_text: "C分享链接，下面与您的朋友和享受的时间进行微调，以在广告活动提供帮助."
+    dashboard_posts:
+      title: "写一个新事物"
+      only_to_backers: "我想这条新闻是唯一可见的支持者."
+      publish: '邮政新奇'
+      discard: '放弃'
+      warning: "所有已发布的消息是通过电子邮件审查和之前发布后直接发送到他们的支持者."
+      old_posts: "旧闻"
+    dashboard_project:
+      budgets_hint_html: "输入的预算的主要项目列表并不需要详谈，只是一个概述他会喜欢的支持者知道他们的钱是怎么花没有规则&nbsp;在列表中的项目数，但通常5通常是一个不错的数字!"
+      budget_hint_html: "怎么你的钱将被用于更透明将涉及到使用这些资源的预算，甚至一个饼图会非常好这里的主要项目列表显示的最佳步骤和过程."
+      budget_label: "项目预算"
+      budgets_label: "预算"
+      start: "告诉你项目的故事!"
+      start_subtitle: "想想在项目的叙述，她是谁迷住了人与支持者带来良好的视频和描述是差!"
+      video_url: "项目视频"
+      video_url_hint: "重要的是：在任何项目可以在没有视频发送: 任何项目都可以在没有视频被发送到分析护理视频的宣泄以后可以分析请记住，这只是为了与5000多个真实目标的项目要求."
+      video_url_subtitle: "链接的Vimeo或YouTube"
+      about: "项目简介"
+      links_title: "友情链接"
+      about_hint_html: '用激情和清晰度会怎样做发言。有关如何，这笔资金将被用于可能的答案，谁是项目背后，是当项目将交付。透明度吸引更多的支持者。记住，你的项目将被普通人谁决定是否支持你的项目进行访问。任性! '
+      card: '卡通设计'
+      card_subtitle: '你知道，在家里和搜索看来，项目cardzinho？因此，在这个美丽的部分，因为在这里他们说，第一印象就是一个是!'
+      image: '形象工程'
+      image_hint: '此图片将作为项目的缩略图(PNG, JPG tamanho 600 x 340)'
+      headline: '项目调用'
+      headline_hint: '这将在项目中使用的卡，连同上面的图片 (miniatura). 最多100个字符.'
+      submit: '保存'
+    dashboard_basics:
+      project_start: '填写以下信息'
+      project_start_subtitle: '报告本节中的数据不能被一旦项目去活的经修饰。填写认真和启动项目之前审查. '
+      online_date: '入境日期到空气'
+      user_id: '用户ID'
+      name: '项目名称'
+      name_label: '越直接越好。不要超过50个字符'
+      url: '该项目的URL'
+      url_label: '这是你的项目的地址应该是很容易记住。避免下划线，连字符和符号'
+      category: '分类'
+      category_label: '探索并激励其他项目在同一类别为你的.'
+      online_days: '截止集'
+      online_days_label: 'V你能为他的竞选活动1到60天之间进行选择。检查出董事的指南上的最后期限的提示.'
+      value: '量提高'
+      value_secondary: '计划，你的项目提出了一项一致的目标。回顾你的预算，不要忘了，包括13％的宣泄收取的利率，如果你的项目是成功的'
+      form:
+        submit: '保存'

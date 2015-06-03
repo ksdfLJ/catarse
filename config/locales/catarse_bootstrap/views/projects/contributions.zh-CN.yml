@@ -1,0 +1,107 @@
+zh-CN:
+  projects:
+    contributions:
+      no_estimate: "不可用"
+      you_selected: "你选择了这个!"
+      contribute_text:
+        credits_tab: 我的学分
+      checkout:
+        no_credits: 您没有足够的学分来进行这种支持。
+        success: 他的支持是成功的。谢谢!
+      contribution:
+        anonymous_contribution: 匿名画板
+        anonymous_description:   您已选择留隐姓埋名
+        no_reward: 此支持者没有选择任何报酬
+      selected_reward:
+        review_without_reward_html: 你将与支持的<strong>%{value}</strong>并且不希望任何回报他们的支持。
+        value: '支持度'
+        reward: '奖励选择'
+        edit: '编辑'
+      existing_payment:
+        page_title: '你对%{name}的支持进行'
+        warning: '警告'
+        warning_subtitle: '你试图访问一个参考支撑已经开始地址:'
+        check_email: "检查你的收件箱中的临时收据是否支持被送到如果没有，请%{mail_to_link}联系我们, 告知识别码(%{gateway_id}), 我们将帮助您与任何你需要的。"
+        new_contribution: "如果你访问过这个页面的错误, 并希望使新的备份, %{link}"
+        contact: '接触'
+        click_here: '点击此处'
+      edit:
+        review_title: '完成和审查付款数据'
+        review_subtitle: '这些数据报告给项目总监'
+        delivery_address: '送货地址'
+        next_step: '送货地址'
+        payment_slip_disclaimer: "如果项目不成功，我们将退还您的支持告知银行的详细资料，这里将被用于此。"
+        review_errors_title: "检查报告的数据"
+        review_errors: "有些信息缺失或不正确的报道，正确的在所有红色和tesnte领域再次"
+        anonymous_confirmation_title: "你确定你希望你的支持是匿名的？"
+        anonymous_confirmation: "你支持的价值将不会透露给任何人比项目业主唯一投标人将有机会获得这些信息，不管你的投资是否公开或匿名的其他。"
+        anonymous_contribution: "我想我的支持是匿名的"
+        form_labels:
+          user_another_card: "使用他人信用卡"
+          payment_card_number: '卡号'
+          payment_card_flag: '旗'
+          payment_card_source: '代码。安全'
+          payment_card_source_short: 'CVC'
+          payment_card_date: '到期日（MM / YYYY）'
+          payment_card_name: '在信用卡上印的名字'
+          payment_card_installments: '情节'
+        installment_with_tax: '没兴趣'
+        transaction_error: '交易拒绝了，请仔细检查你的数据，并联系银行/发卡机构以获取更多信息。'
+        pagarme_warning_html: "Catarse是在测试新的付款方式将有利于财政支持和可能的报销数额的支持者。因此，提醒，额外的数据可能需要除了那些使用条款，以支持提及。此项目。如果有任何困难，请联系我们通过电子邮件%{mailto}谢谢。"
+        payment_save_card: '我要保存我的信用卡，以方便日后的支持。'
+        reward_sold_out: 该奖项是筋疲力尽。启动一个新的支持。
+        page-title: 支持%{name}
+        credits_preview_html: "你有<strong>%{credits}</strong>的信贷，使这种支持的<strong>直到10/11</strong>, 作为<a href='http://blog.catarse.me/simplificacao-dos-reembolsos-e-o-fim-dos-creditos/' target='__blank'>新规则</a>的发布Catarse。"
+        credits_submit: '付款'
+        credits_title: '与信用支付'
+        insufficient_credits: "你自己%{credits}的学分。 这个值是不够的，执行备份，请选择其他付款方式。"
+        choose_payment: "选择付款方式"
+        choose_payment_subtitle: "安全支付"
+        cpf: '要继续，请告知:'
+        credits_notice_html: 这将是支付他们的要求。确认后，你将留下的<strong>%{credits}</strong>学分平衡支持其他项目。
+        live_in_brazil: 我住在巴西。(取消选中，如果您的支持是国际)
+        number_card: 卡数据
+        owner_card: 持卡人数据
+        payment_account: 持卡人数据
+        payment_boleto: 付款与Boleto
+        payment_card: 用卡支付
+        review_with_reward_html: '你将与支持的<strong>%{value}</strong>将获得以下奖励:'
+        select_account: '你将被重定向到您的银行网站:'
+        select_boleto: '要继续，请选择:'
+        submit:
+          credits: 确认
+          moip: 通过使MoIP业务支付
+        subtitle: 这些数据将被报告给项目单位。
+        title: 完成并审查付款数据
+        you_are_about_html: 你即将加入，做一切该组%{link}发生。
+      new:
+        page-title: 支持%{name}
+        title: Oohh耶！
+        you_have_credits: "你有<strong>%{credits}</strong> 的积分，使这种支持。"
+        choose_reward: 选择奖励和支持，那么其值
+        choose_value: 输入您的支持金额。
+        minimum_disclaimer: '从R$ <span id="minimum-value">10</span>是伟大的 ;)'
+        next_step: "审查并执行支付"
+        no_reward: 谢谢。我只是想帮助这个项目。
+      review:
+        PayPal: "PayPal"
+        MoIP: "MoIP"
+        Credits: '积分'
+        error: 哎呀。在注册他们的支持时发生错误。请重试。
+      show:
+        follow: '按照'
+        follow_category: '喜欢%{category}? 你可以得到第一手资料，并直接到您的电子邮件时，新的项目来对空气!'
+        project_recommendations: '为您推荐的项目'
+        share: 分享
+        tweet: 鸣叫
+        thank_you: '谢谢!'
+        profile_link: '通过您的个人资料'
+        thank_you_text_html: '你只需要迈出的重要一步在过程中得到了%{link1}纸! 一旦它被处理发送付款确认通过电子邮件。您还可以跟踪支持状态%{link2}.'
+        share_back: '与我们分享您的支持，增加了项目的机会击中目标!'
+        header_subtitle: 如果没有你，也许这个项目根本没有机会。没关系!
+        header_title: 谢谢! :D
+        moip_message: 您的交易核查正在进行和代码MoIP业务是%{code}″.<br>如果您有任何关于交易的任何疑问，请联系MoIP业务。当确认付款的电子邮件将被发送。
+        recommended_projects: '你还可以享受这些项目:'
+        text_subtitle: 告诉大家你只是做了什么
+        text_title_html: 这将是支付他们的要求。确认后%{link}执行。
+        title: 谢谢
