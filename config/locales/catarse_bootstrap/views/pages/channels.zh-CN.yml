@@ -1,0 +1,95 @@
+zh-CN:
+  admin:
+    menu: "通道审核"
+    followers_menu: "追随者"
+    statistics_menu: "统计"
+    profile_menu: "编辑频道"
+    partners_menu: "编辑的合作伙伴"
+    statistics:
+      title: '信道统计'
+      total_subscribers: '用户总数'
+    confirmations:
+      destroy: 消灭你确定要删除吗?
+    filter:
+      between_created_at: 与创建
+      by_id: 按照id
+      order_table: 排序表
+      pg_search: 项目
+      submit: 过滤器
+      title: 过滤器
+      user_name_contains: 用户
+      with_state: 随着国家
+      by_payment_method: '支付手段'
+      by_gateway: '门户'
+    followers:
+      index:
+        download: 下载列表
+        title: 下载列表
+    management:
+      no_partners: 没有注册合作伙伴
+      no_posts: 没有注册新奇
+      title: 管理
+      total: 项目总
+    partners:
+      back_to_list: "←返回来管理合作伙伴"
+      new:
+        add_partner: Adiconar 伙伴
+      edit:
+        edit_title: 修改合作伙伴
+      form:
+        hint_image: 图像大小370x320
+        save_submit: 保存
+      index:
+        new_button: 加入的合作伙伴
+        table:
+          created_at: 创建
+          image: 图片
+          name: 名称
+          url: 网站
+          actions: 操作
+        title: 操作
+    posts:
+      back_to_list: "返回新闻管理"
+      new:
+        create_news: 创建新
+      edit:
+        edit_news: 编辑新
+      index:
+        new_post_button: 创建新
+        table:
+          actions: 操作
+          created_at: 创建
+          published_at: 发布时间
+          title: 新标题
+        title: 新标题
+      form:
+        save_submit: 保存并预览
+      update:
+        published_message: 您的消息一经公布，并邮寄给追随者通道。
+      warning_html: 请记住，所有发布的消息将直接进入他的追随者的电子邮件。在发送之前这么好审核您的文字。
+    posts_menu: 管理新闻
+    table:
+      approve: 批准
+      category: 类别
+      confirmation: 要删除这个项目吗?
+      contributed_projects: Projetos apoiados
+      created_projects: 创建项目
+      destroy_action: 删除
+      edit_action: 编辑
+      expires_at: 结束
+      goal: 元
+      name: 标题
+      online_date: 出版
+      pledged: 出版
+      publish_action: 帖子
+      recommended: 推荐
+      reject: 推荐
+      send_to_draft: 发送起草
+      put_online: 将空气中的
+      send_to_trash: 将空气中的
+      show_action: 将空气中的
+      state: 状态
+      total_contributions: 状态
+      unpublish_action: 状态
+      user: 用户
+      user_id: 用户

@@ -1,0 +1,56 @@
+zh-CN:
+  pages:
+    hello:
+      page-title: "了解更多"
+      hero:
+        title: "拿纸的设计!"
+        people_html: "人们支持Catarse至少<br>1个项目"
+        projects_html: "项目已经<br>资助大全Catarse"
+        money_html: "这里公布的项目<br>捐助"
+        success: "项目已经资助Catarse"
+        money: "捐赠在这里发布的项目"
+      idea:
+        title: "这一切都始于一个项目!"
+        subtitle: "但有一个计划是不够的，必须获得相关人员和必要的资源成真。"
+      fund:
+        title: "集团财务"
+        subtitle: "没有Catarse，它是各种类别的电影制作人可能连接的项目有兴趣的支持者做出贡献的小额捐款。"
+      campaign:
+        title: "筹款活动"
+        subtitle: "电影制作人有60天的拍摄，导致该项目出现在换取支持，提供创造性的奖励财务目标。"
+      allornothing:
+        title: "全有或全无!"
+        subtitle: "我们的目标是在击中球门接收收取的金额或全部支持者收到退款计划活动是秘密!"
+      success:
+        title: "在画板上项目"
+        subtitle: "支持者希望看到该项目发生一起竞选的成功，电影制片人制作的项目，并准备向支持者奖励的交付!"
+      cta:
+        title: "知道Catarse在实践"
+        backer-cta: "成为一名支持者，帮助人们和接收独家奖励"
+        backer-link: "支持项目"
+        maker-cta: "做导演，展现你的项目走向世界，筹钱"
+        maker-link: "开始你的项目"
+      testimonial:
+        humberto:
+          text_html: "&#8220;这是一个令人着迷的机会被邀请分享自己的梦想，仍然收到奖励的经验。 &#8221;"
+          name: "温贝托菲盖拉"
+          credentials: "支持超过150个项目在Catarse"
+      details:
+        fund:
+          title: "集体融资或集资?"
+          text: "两个名字在其中的人贡献少量同样的做法，共同viabilizarem项目围观的人群是英文，资金，融资集资正在资助的人群。"
+        allornothing:
+          title: "为什么全有或全无?"
+          text_html: "我们 &#8220;相信 nada&#8221; 在模型中全有或全无。因为除了运动arrecadarem多，这是一种方式，以确保它是否可以作为描述和承诺的支持者交付项目才会发生。"
+        services:
+          title: "我们的服务"
+          text: "Catarse提供了支持，该网站的用户，并使其可以使用超过18年，互联网任何人夺取资源的项目在一个快速和直接的方式（或更少，但有法人代表）可以使用我们的服务，使之一。集资活动，因为该项目是符合我们的选择标准。"
+        fees:
+          title: "如何维持"
+          text: "
+          我们收取的已达到或超过目标集合项目总价值的13％。我们得到约9％和4％被传递到Pagar.me, 是指用Catarse的支付。那些没有达到目标的项目没有任何成本和所有支持者收到退款。
+          "
+        work:
+          title: "我们与宗旨，热爱工作"
+          text: "Catarse是独立的，没有投资者，开源并内置有爱我们的激情是要建立一种环境，越来越多的项目到今天来的生活是一队23人的热心帮助分配更多的资源。在整个巴西的项目。"
+      staff: "这是我们中的一些等着你拿项目的一部分..."
