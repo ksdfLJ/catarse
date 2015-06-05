@@ -1,0 +1,53 @@
+zh-CN:
+  simple_form:
+    collections:
+      project:
+        traffic_sources:
+          one: "我曾在没有在Catarse有项目"
+          two: "一个人的指示谁拥有了一个Catarse项目"
+          three: "指示​​朋友/同事/专业接触"
+          four: "从项目被拿起平台上的"
+          five: "在博客的文章"
+          six: "在新闻(新闻门户网站在互联网，电视，报纸，杂志)的一篇文章"
+          seven: "一类/课程/讲座/事件"
+          eight: "我做了一个互联网搜索有关的资金集资/替代形式"
+          nine: "其它"
+    validation_texts:
+      reward:
+        minimum_value: "输入的最小值大于或等于10"
+        description: "输入奖励说明"
+      bank_account:
+        bank_id: "选择银行"
+        agency: "其中分数?"
+        account: "什么是帐号?"
+        account_digit: "什么是校验码?"
+        owner_name: "用最少的5和最多30个字母输入名称"
+        owner_document: "输入CPF CNPJ或有效账户持有人"
+      contribution:
+        payer_name: "请输入支持者的名字"
+        payer_email: "请输入一个有效的电子邮件"
+        payer_document: "请输入有效的CPF或CNPJ"
+        address_state: "选择一个状态"
+        address_street: "输入街道名称"
+        address_number: "输入地址号码"
+        address_city: "进入城市"
+        address_zip_code: "输入邮政编码"
+        address_phone_number: "输入电话号码"
+    prompts:
+      project:
+        category: "选择一个类别"
+        select: "选择一个选项"
+        traffic_sources: "你是如何满足Catarse?"
+    hints:
+      project:
+        select: "选择一个选项"
+        traffic_sources: "你是如何满足Catarse?"
+        name: "给人们会很容易记住一个名字。不要超过50个字符。"
+        permalink: "喜欢的东西简单，直接，很好地识别项目。尽量不要使用连字符，下划线等。"
+        category: "选择最适合您的项目。"
+        goal: "规划与你的项目提出了一项一致的目标。回顾你的预算，不要忘了，包括13％的Catarse收取的利率，如果你的项目是成功的。"
+        online_days: "你可以选择在1至60天，他的竞选。检查出董事的指南上的最后期限提示。"
+        video_url: "链接在Vimeo或视频<br/> Youtube."
+        about_html: "充满激情和清晰度会怎样做发言。有关如何，这笔资金将被用于可能的答案，谁是项目背后，是当项目将交付。透明度吸引更多的支持者。记住，你的项目将被普通人谁决定是否支持你的项目进行访问。Capriche! "
+        headline: "这句项目卡打电话的支持者。必须有不超过100个字符，以及总结项目。"
+        uploaded_image: "此图片将作为项目的缩略图 (PNG, JPG 尺寸 600 x 340)"

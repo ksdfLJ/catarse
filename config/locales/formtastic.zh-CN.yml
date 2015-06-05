@@ -1,0 +1,44 @@
+zh-CN:
+  formtastic:
+    hints:
+      reward:
+        description: 描述你的奖励的方式来唤起人们的兴趣，以支持该项目。不要害羞!
+        maximum_contributions: 如果你的奖励是有限的，请尽可能多的人。
+        minimum_value: 这是选择这个奖励的最低金额的支持。
+        days_to_delivery: 告诉多少天，该项目成功后，你打算给这个奖励
+      contribution:
+        credits: 你自己<strong>%{credits}</strong>在积分和支持直到而不执行新的付款此值。
+      project:
+        about: 告诉我们一些关于你的灵感，工程项目承接，其历史和将被传递到结束。简洁和逃避那些手续通告。没有目标，背景，目标治疗...你的读者的东西，他们和动作是非常透明化关于该项目的期望。
+        category: 在发送您的设计，探索和其它项目的启发谁访问该网站。
+        first_contributions: 对于他的竞选成功，就必须把请与最近的网络。所以，在这里列出你相信谁这将是它的第一个20的支持者
+        goal: "重要的是要记住，太多的支持将来自于附近的人是很重要的
+          你(的关系第1和第2级): <a href='http://blog.catarse.me/sua-campanha-no-catarse-precisa-de-um-empurrazinho' target='_blank'>点击这里!</a>因此，为需要的值通过提高Catarse在他们的动员能力，批判性思维至少50％你的人脉中的价值。"
+        headline: 总结了140个字符您的项目。这句话将是第一个人与你的项目甚至在看到视频联系。是创意，透明度和值 :)
+        more_links: 会是怎样的动员使用的通道? (把链接如Facebook，Twitter，博客......这一切都将帮助你释放你的项目)
+        name: 越直接越好。留下来描述你的项目中关于和视频。
+        online_days: 平均而言，这些项目都是在空气中长达40天。
+        uploaded_image: 在这里，您上传的图片(JPG格式)，具有512x400的大小。
+        video_url: 该视频是该项目的核心。如果你还没有，不您需要发送...但是去已经在思考如何使一个斗牛士的视频!
+        video_url_edit: 在这里粘贴视频的链接托管在Vimeo或YouTube。
+    labels:
+      reward:
+        description: 描述
+        minimum_value: 最小值
+        days_to_delivery: 预计交货
+        maximum_contributions: 最大的支持者(可选)
+      contribution:
+        credits: 我想用我的信用支持这个功能。
+        anonymous: 我想我的支持是匿名的。
+        value: 你想支持多少钱?
+        reward: 选择您的奖励
+      project:
+        about: 你的项目的历史，以及如何将$使用 *
+        expires_at: 多久达到最低? *
+        first_contributions: 第一支持者名单 *
+        goal: 当你打算提高? (仅限数字)*
+        headline: 口号 *
+        traffic_sources: 你是如何达到Catarse? *
+        more_links: 链接列表相关项目 *
+        name: 项目名称 *
+        video_url: 视频

@@ -1,0 +1,99 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+zh-CN:
+  devise:
+    feedback_tab:
+      title: "反馈和支持"
+      header_html: "欢迎来到<br/>Catarse的新登录"
+      blog_button: "更多"
+      form_feedback_link: "反馈意见"
+      contact_link: "联系支持"
+    confirmations:
+      confirmed: "您的帐号已成功确认您现在登录。"
+      send_instructions: "你会收到一封电子邮件，关于如何确认您的帐户在几分钟之内的指示。"
+      send_paranoid_instructions: "如果你的电子邮件地址存在于我们的数据库中，您将收到一封电子邮件，关于如何确认您的帐户在几分钟之内的指示。"
+    failure:
+      password_token: "这个密码重置链接已失效。再次输入您的电子邮件地址"
+      already_authenticated: ""
+      #already_authenticated: "You are already signed in."
+      inactive: "您的帐户还没有激活。"
+      invalid: "无效的电子邮件或密码。"
+      invalid_token: "无效的认证token。"
+      locked: "您的帐号已被锁定。"
+      not_found_in_database: "无效的电子邮件或密码。"
+      timeout: "您的会话过期，请重新登录才能继续。"
+      unauthenticated: ""
+      #unauthenticated: "You need to sign in or sign up before continuing."
+      unconfirmed: "你必须继续之前确认您的帐户。"
+    mailer:
+      confirmation_instructions:
+        subject: "确认指令"
+      reset_password_instructions:
+        subject: "重设密码的说明"
+      unlock_instructions:
+        subject: "解锁指令"
+    omniauth_callbacks:
+      failure: "无法验证你的%{kind}因为\"%{reason}\"."
+      success: ""
+      #success: "Successfully authenticated from %{kind} account."
+    passwords:
+      no_token: ""
+      #no_token: "You can"t access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "这个密码重置链接已失效再次输入您的电子邮件地址"
+      send_paranoid_instructions: "如果你的电子邮件地址存在于我们的数据库中，您将收到在几分钟内您的电子邮件地址的密码恢复链接。"
+      updated: ""
+      #updated: "Your password has been set"
+      updated_not_active: "您的密码已设置"
+      new:
+        site_title: "忘记我的密码"
+        title: "输入您的电子邮件地址，并要求密码重置"
+        submit: "发送指令来重置密码"
+      edit:
+        site_title: "您的密码已成功更改。"
+        label_new_password: "在下面输入新密码"
+        title: "您的密码已成功更改。"
+        subtitle: "重置密码，使用您的电子邮件和密码，在你Catarse登录"
+        submit: "重设密码"
+    registrations:
+      destroyed: "再见您的帐户已成功取消我们希望再次见到你。"
+      signed_up: ""
+      #signed_up: "Welcome! You have signed up successfully."
+      signed_up_but_inactive: "你已经签署了成功然而，我们无法登录您，因为您的帐户尚未激活。"
+      signed_up_but_locked: "你已经签署了成功然而，我们无法您登录因为您的帐户已被锁定。"
+      signed_up_but_unconfirmed: "有一个确认链接的消息已发送到你的邮箱，请及时打开链接激活您的账号。"
+      update_needs_confirmation: "你更新您的帐户成功，但我们需要验证您的新电子邮件地址，请检查您的电子邮件并点击确认链接，完成确认新的电子邮件地址。"
+      updated: "您已成功更新您的帐户。"
+    sessions:
+      new:
+        site_title: "登陆"
+        submit: "登陆"
+        title: "使用输入您的电子邮件地址"
+        login_title: 登陆
+        login_subtitle: "如果你已经有一个帐户"
+        register_title: "注册"
+        register_subtitle: "用你的电子邮件地址"
+        with_facebook: "用你的Facebook帐户"
+        with_facebook_subtitle: "一个快速的方式登录"
+        google_warning_html: "如果你使用的是<strong>Google</strong>账户:"
+        google_step_1: "1 - 点击 %{link}"
+        google_step_2: "2 - 按照以下步骤来创建一个新的密码。"
+        with_another_social: "Twitter的支持将在下周中删除"
+        with_another_social_subtitle: "<a target=\"_blank\" href=\"http://blog.catarse.me/mudanca-no-sistema-de-login/\">了解更多</a>有关它(只有在葡萄牙文)"
+      signed_in: ""
+      #signed_in: "Signed in successfully."
+      signed_out: ""
+      #signed_out: "Signed out successfully."
+    unlocks:
+      send_instructions: "你会收到一封电子邮件，如何解锁您的帐户在几分钟之内的指示。"
+      send_paranoid_instructions: "如果你的帐户存在，您会收到一封电子邮件，如何解锁几分钟的说明。"
+      unlocked: "您的帐号已被成功解锁请登入继续。"
+  errors:
+    messages:
+      already_confirmed: "已经确认，请尝试登录"
+      confirmation_period_expired: "必须在期间确认%{period},请申请一个新的"
+      expired: "已过期，请申请一个新的"
+      not_found: "找不到"
+      not_locked: "没有锁定"
+      not_saved:
+        one: "禁止保存%{resource}1个错误:"
+        other: "%{count}个错误禁止这个%{resource}被保存:"

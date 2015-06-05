@@ -1,0 +1,109 @@
+zh-CN:
+  admin: &admin
+    confirm_dialog: "你确定吗?"
+    projects:
+      index:
+        by_state: "通过国家"
+        between_created_at: "在创建的"
+        submit: "过滤"
+        send_to_trash: "删除"
+        send_to_draft: "发送起草!"
+        reject: "拒绝!"
+        approve: "批准!"
+        order_asc: '递增'
+        order_desc: '递减'
+        order_created_at: "提交日期"
+        last_modification: "最近更新"
+    financials:
+      index:
+        submit: '过滤'
+        by_state: '通过国家'
+        by_progress: 按照进度 %
+    users:
+      index:
+        title: "管理的贡献"
+        menu: 用户
+        credits: 积分
+        credits_view: "计算所得积分"
+        id: ID
+        key: 键
+        submit: 搜索
+        has_credits_difference: "积分差异"
+        total_contributed: 贡献
+        total_contributors: 贡献者
+        total_contributions: 捐款
+        total_users: 用户
+        total_credits: 积分
+        total_credits_view: "计算的积分"
+        user: 用户
+        value: 值
+        provider: 供应商
+    contributions:
+      messages:
+        successful:
+          confirm: "证实了贡献!"
+          pendent: "未经证实的贡献!"
+          refund: "未经证实的贡献!"
+          change_reward: "奖励变了!"
+          hide: "隐藏的贡献!"
+          cancel: "取消的贡献!"
+          push_to_trash: '贡献删除!'
+      index:
+        send_refund_request_contribution: "发送退款申请"
+        push_to_trash: "删除的贡献"
+        cancel: "取消贡献"
+        refund_and_hide: "退款及隐藏"
+        contribution_info: '信息贡献%{key}'
+        payment_id: '付款ID'
+        payment_method: '付款方式'
+        payment_fee: "付款方式费用"
+        payment_choice: '支付选择'
+        payer_email: "付款电子邮件"
+        user_email: "Catarse用户的电子邮件"
+        pending_to_refund: '待退还'
+        created_at: '创建在'
+        title: "捐款管理"
+        menu: 捐款
+        anonymous: 匿名?
+        confirmed: 确认?
+        credits: "使用积分?"
+        id: ID
+        key: Key
+        no_contributions: "未找到的贡献。"
+        project: 项目
+        refunded: 退款?
+        requested_refund: "要求退款?"
+        reward: 奖励
+        no_reward: "没有奖励"
+        submit: 搜索
+        total_contributed: 捐款
+        total_contributors: 贡献者
+        total_contributions: 捐款
+        total_users: 用户
+        user: 用户
+        value: 值
+    statistics:
+      index:
+        menu: "统计"
+        title: "统计"
+        total_users: "用户"
+        total_contributions: "捐款"
+        total_contributors: "贡献者"
+        total_contributed: "捐款"
+        total_projects: "项目"
+        total_projects_success: "成功"
+        total_projects_online: "在线"
+      projects_by_week:
+        title: "每周送出工程"
+        current_period: "最后8个星期"
+        previous_period: "以前的8个星期"
+        last_year: "去年"
+      contributions_by_week:
+        title: "每周供稿值确认"
+        current_period: "最后8个星期"
+        previous_period: "以前的8个星期"
+        last_year: "去年"
+
+  channels:
+    admin:
+      <<: *admin

@@ -1,0 +1,899 @@
+zh-CN:
+  not_found:
+    title: "对不起，我们找不到这个地址:("
+    text: "您可能没有正确输入地址或页面可能已经移除。"
+  controllers:
+    updates:
+      create:
+        notice: '更新成功!'
+  failure_title: '请修复以下错误:'
+  uservoice_gadget:
+    user:
+      name: '用户'
+      location: '城市 / 州'
+      confirmed_contributions: '确认捐款'
+      created_projects: '创建的项目'
+  site:
+    description: Catarse是第一个，也是最大的集资平台，或集资，巴西。快来参与设计!
+    keywords: 集资，设计，便捷，社区，开源
+    meta_title: "%{title} · %{company_name}"
+    title: 集资在巴西是Catarse
+  login:
+    forgot_password:
+      welcome: '重置密码！'
+      label: '填写您的重置密码邮箱'
+      submit: '重置'
+    registrations:
+      welcome: '注册'
+      password_hint: '最小6个字符'
+      show_password: '显示密码'
+    singin: "登录"
+    placeholder:
+      email: "电子邮箱"
+      password: "密码"
+
+  contribution_report_to_project_owner:
+    reward_description: '奖励说明'
+    confirmed_at: '付款确认为'
+    value: '贡献值'
+    service_fee: 'Catarse 费用'
+    user_name: '贡献者名字'
+    user_email: 'Catarse 用户资料电子邮箱'
+    payer_email: '支付网关用户电子邮箱'
+    payment_method: '支付方式'
+    address_street: '街道'
+    address_complement: '补充地址'
+    address_number: '号'
+    address_neighbourhood: '区'
+    address_city: '城市'
+    address_state: '州'
+    address_zip_code: '邮编'
+    anonymous: '匿名'
+  edit_project: '编辑这个项目'
+  facebook_locale: 'zh_CN'
+  or: 或
+  'no': "否"
+  'yes': "是"
+  newsletter_ok_header: "您已订阅电子报!"
+  newsletter_ok_body: "现在你的电子邮件是我们的通讯名单，感谢订阅!"
+  newsletter_error_header: "Woops！有一个错误."
+  newsletter_error_body: "你的电子邮件不能被添加到我们的通讯名单，请稍后再试!"
+  newsletter_subscribe: "订阅"
+  views:
+    pagination:
+      next: 下一个
+      last: 上一个
+      truncate: "..."
+  statistics:
+    contributions:
+      subtitle: 贡献
+    goal:
+      subtitle: "总共%{total}"
+  project_by: "按项目"
+  tell_about_this_contribution: "告诉全世界你的支持!"
+  share_my_contributions: "看到我在支持项目在Catarse!"
+  tell_about_this_project: "告诉全世界你的项目!"
+  share_my_projects: "看见我的项目在Catarse!"
+  count_contributed_projects: "贡献%{total}项目"
+  rewards:
+    index:
+      dont_want: "我不希望任何报酬"
+  footer:
+    titles:
+      about: "关于我们"
+      social: "社会网络"
+      sitemap: "浏览"
+      newsletter: "订阅我们的新闻"
+      contact: "保持联系"
+    links:
+      about: "我们是"
+      faq: "帮助"
+      feedback: "反馈"
+      support: "支持"
+      terms: "条款"
+      privacy: "隐私"
+      press: "按"
+      twitter: "Twitter"
+      facebook: "Facebook"
+      instagram: "Instagram"
+      github: "Github"
+      blog: "博客"
+      contact: "联系"
+      recommended: "推荐"
+      near: "附近"
+      expiring: "即将到期"
+      recents: "最近"
+      submit: "发送你的项目"
+      discover: "发现项目"
+    texts:
+      copyleft: "用爱。"
+  main:
+    banner: "探索研究"
+    links:
+      channels: "ASAS发现渠道"
+      recommended: "发现推荐项目"
+      expiring: "发现项目到期"
+      recents: "发现最近的项目"
+      near: "你发现附近的项目"
+  sidebar:
+    titles:
+      blog: 博客
+      facebook: "是否喜欢我们的Facebook页面?"
+      newsletter: "订阅我们的新闻"
+      faq: "有任何疑问?"
+      schedule: 日历
+    placeholders:
+      email: "输入你的电子邮件"
+    buttons:
+      newsletter: 提交
+  sections:
+    near:
+      title: 我的附近
+    recommended:
+      title: 推荐
+    expiring:
+      title: 发现
+    recents:
+      title: 最近
+    channels:
+      title: "ASAS渠道"
+  shared:
+    accept_terms_html: "我已阅读并同意%{link}."
+  activerecord:
+    errors:
+      models:
+        project:
+          attributes:
+            permalink:
+              invalid: "无效的项目永久链接"
+    attributes:
+      unsubscribe:
+        update: "收到项目更新"
+      contribution:
+        value: 值
+      project:
+        category: 分类
+        expires_at: 最后期限
+        online_days: 空中战役的日子
+        headline: 标题
+        image_url: "图像地址"
+        name: 名字
+        user_id: "用户ID"
+        video_url: "视频地址"
+        permalink: '项目地址'
+        traffic_sources: "你如何发现关于Catarse?"
+        more_links: '我们在哪里可以找到更多关于你和你的项目?'
+      reward:
+        description: 描述
+        maximum_contributions: "最大的贡献"
+        minimum_value: "最小值"
+      user:
+        address_city: 城市
+        address_complement: 补充地址
+          address_neighbourhood: 街区
+          address_number: 号码
+          address_state: 州
+        address_street: 街道
+        address_zip_code: "邮编"
+        cpf: 'CPF / CNPJ '
+        cpf_hint_title: '发票将这个文件'
+        cpf_hint: '(?)'
+        state_inscription: '国家注册'
+        moip_login: 'MoIP 登录'
+        moip_login_hint: '(怎样创建一个账户)'
+        current_password: "当前密码"
+        email: 电子邮箱
+        full_name: "全名／公司名"
+        bio: '个人经历'
+        name: "昵称"
+        password: 密码
+        password_confirmation: "密码确认"
+        phone_number: "移动电话号码"
+        newsletter: '我愿意收到关于Catarse的新闻'
+    models:
+      contribution: 贡献
+      category: 类别
+      project: 项目
+      reward: 奖励
+  contribution:
+    display_confirmed_at: "过了%{time_ago}"
+    reward_must_be_from_project: "必须从同一项目"
+    should_not_contribute_if_maximum_contributions_been_reached: "已达到其最大的贡献"
+    value_must_be_at_least_rewards_value: "必须至少%{minimum_value}所选奖励"
+    project_should_be_online: "你不能贡献一个不在线的项目"
+  contribution_plural: 贡献
+  project_plural: 项目
+  project_singular: 项目
+  contribution_singular: 贡献
+  click_here: "点击这里"
+  clicking_here: "点击这里"
+  click_term: '条款'
+  comment:
+    display_time: "%{time_ago}以后"
+  credits:
+    modal:
+      title: "你要确认退款申请?"
+      text: "确认我们如何退款流程:"
+      link: "看看如何退款工作"
+      reject_btn: "我想保持我的积分"
+      accept_btn: "我想请求退款"
+    index:
+      contribution_date: "贡献日期"
+      current_credits_html: "您当前积分余额为<span id=\"current_credits\">%{credits}</span>。"
+      important_html: "如果你要求退款，付款的价值会从你的积分中扣除。"
+      project: 项目
+      refund_expiration_date_html: "截止到申请退款 (<a target='__blank' href='http://suporte.catarse.me/knowledgebase/articles/164746-regras-e-funcionamento-dos-reembolsos-estornos'>?</a>)"
+      refunded: "退款请求成功完成。我们的团队将在两个工作日内与您联系。"
+      insufficient_credits: "您没有足够的积分要求退还此。"
+      refunds_title: "可退款"
+      request_refund: "要求退款"
+      requested_refund: "要求的退款"
+      status: 状态
+      title: "我的积分"
+      value: 值
+    refund:
+      cannot_refund: "此款项不能退还。"
+      error: "哎呀。同时要求退款时出现错误。"
+      no_credits: "您没有足够的积分要求退还此。"
+      refunded: "此款项已被退还。"
+      requested_refund: "你已经申请退还这笔款项。"
+    title: "我的积分"
+  curated_pages:
+    index:
+      title: "策展人页"
+    show:
+      contributed: 贡献
+      reached: 到达
+  error: "哎呀！出现错误。请重试。"
+  explore:
+    index:
+      near: '我的附近'
+      categories: 类别
+      expiring: "即将到期"
+      quick_explore: "快速搜索"
+      recent: 最近
+      recommended: 推荐
+      subtitle: "探索项目，发现那些感动你，并让他们发生!"
+      successful: 成功
+      title: "发现惊人的项目"
+    title: "探索项目"
+    project:
+      empty: "嘿，我们没有发现与你搜索的文本的任何项目。想尝试一些新词? =D"
+  formtastic:
+    hints:
+      contribution:
+        credits: "你有<strong>%{credits}</strong>在积分和高达这个数额，而不需要进行新的付款即可贡献。"
+        value: "您可以选择的量 ;）开始R$10的任何数额巨大。"
+      project:
+        video_url_edit: '在这里粘贴的Vimeo/ YouTube视频的URL。'
+        about: "告诉我们什么启发你想出这个项目。是客观年底迷人，有一些动作，而他们是非常透明的了你的项目的期望出示您的读者!"
+        more_links: "哪些渠道将被用于传播有关你的项目的话？这里列出您的Facebook/ Twitter的/博客/网站/和什么都更多的链接，你一定要帮你"
+        category: "在格式化您的项目开拓其他（成功的）项目，以激励自己!"
+        expires_at: "最后，选择你想要多久的活动持续下去。再次，这是一个战略性的选择：如果你把大量的时间，人们就会失去前进的道路上的利益;如果放得太少，你可能不会达到最低的时间。"
+        online_days: "最后，选择你想要多久的活动持续下去。再次，这是一个战略性的选择：如果你把大量的时间，人们就会失去前进的道路上的利益;如果放得太少，你可能不会达到最低的时间。"
+        goal: "在雷亚尔值 (R$)"
+        first_contributions: "为了达到你的理财目标是不可或缺搞谁接近你和项目的人。所以，如果你可以在这里列出谁将会是你的第一个20的贡献，这将是一个伟大的标志 ;) "
+        headline: "总结了140个字符您的项目。这句话将是人都会有你的项目，甚至前看到视频的第一次接触。要有创意，明确和直接 :)"
+        name: "要客观，你可以。留下解释的关于部分。"
+        uploaded_image: "上传512x400的图像(.jpg)."
+        video_url: "粘贴一个网址<a href=\"http://vimeo.com\" target=\"_blank\">Vimeo</a>视频。我们推荐的Vimeo，因为它看起来更好，没有广告。这样一来，你的项目会更好看呢！<strong>制作视频的最好的，你可以和做一个专门的视频广告系列</strong>。如果存在区别是达到与其它的目标是视频中的项目单的事情 ;)"
+      reward:
+        description: "描述你的奖励在引起人们的兴趣贡献项目的方式。不要害羞!"
+        maximum_contributions: "如果你的奖励是有限的，告诉我们的最大贡献。"
+        minimum_value: "这是选择这个奖励的最低金额。"
+        days_to_delivery: "总天数的交付奖励。"
+    labels:
+      contribution:
+        anonymous: "我希望我的贡献是匿名的。"
+        credits: "我想用我的积分在此作出贡献。"
+        reward: "选择您的奖励"
+        value: "多少钱你想与贡献?"
+      comment:
+        comment: "留下您的评论对这个项目"
+      project:
+        more_links: "列表项目相关链接 *"
+        traffic_sources: "你是怎么知道Catarse的?"
+        headline: "妙语"
+        category: '类别'
+        first_contributions: "列出你的第一个贡献 *"
+        about: "关于你的项目。您将如何花这笔钱?"
+        expires_at: "什么是限期达到你的目标?"
+        goal: "多少钱你打算提出? (仅使用数字)"
+        name: "项目的名称"
+        online_days: '多少天的活动?'
+        video_url: 视频
+        uploaded_image: "项目缩略图"
+      reward:
+        maximum_contributions: "最大的贡献 (自选)"
+        days_to_delivery: "可送货"
+    optional: " (optional)"
+  found_plural: 发现
+  found_singular: 发现
+  here: 这里
+  i_contributed: "我促成项目%{name}在@catarse"
+  i_just_contributed: "我只是促成项目%{name}在@catarse"
+  layouts:
+    login:
+      login_with_facebook: "请用您的Facebook帐户"
+      remember_me: "记住我，让我联系。"
+    header:
+      blog: 博客
+      help: 帮助
+      signup: "注册"
+      signin: 登录
+      discover: 发现
+      submit: 发送你的项目
+      profile: "我的资料"
+      account: "我的账户"
+    user:
+      logout: 登出
+      my_credits: "我的积分"
+  not_informed: "没有通知"
+  notify_locale: "我们确定你的语言由您的浏览器。如果你喜欢一个又一个，点击其中右侧的标志之一。"
+  on_the_spot:
+    cancel: 取消
+    ok: 确认
+    tooltip: "点击编辑..."
+  passwords:
+    edit:
+      label_new_password: "新的密码"
+      submit: "更改密码"
+      title: "重置密码"
+      site_title: "更改密码"
+      subtitle: "您请求重置密码。请在下面填写您的新密码，然后点击 \"更改密码\"。 如果您没有请求此密码重置，只需跳过此页面，您的密码将保持不变。"
+    email:
+      content_html: " <p>有人要求一个链接更改您的密码，您可以通过下面的链接做到这一点。</p><p>%{link}</p><p>如果您没有要求这一点，请忽略此电子邮件。</p><p>您的密码将不会改变，直到你访问上面的链接，并创建一个新的。</p> "
+      title: "重设密码的说明。"
+    new:
+      submit: "发送指令重置密码"
+      title: "忘记密码?"
+      site_title: "找回密码"
+  project:
+    start:
+      email_subject: "您的项目已收到Catarse团队"
+      email_text: "感谢您的信任，Catarse项目 :)<br><br>我们知道，您期望快速回复，但是，坦率地说，我们需要长达4天回应，OK? 那是因为我们有一个小的团队合作了几个项目。请注意，回复可以来得早，所以要注意你的收件箱。<br><br>同时值得去知道，在线项目(<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>)和 - 如果你喜欢的任何them-的贡献吧！这是方式展现在巴西集资的文化支持，并养活了各地不断增长的Catarse的生态系统。<br><br>除此之外，你会得到一些灵感为自己的项目...<br><br>请继续关注更新<a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a>并得到一些深层次的了解Catarse阅读在我们的帖子<a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>如果您有任何疑问，请发送电子邮件至: %{email}"
+      notification_text: "您的项目已收到Catarse团队"
+    finish:
+      successful:
+        email_subject: "万岁！该项目%{project_name}成功登录Catarse！"
+        email_text: "项目%{project_link},你已经做出了贡献，已成功资助！让我们庆祝/<br><br>该项目有，包括你，%{project_total_contributions}精彩的捐款，募集%{project_pledged}并达成%{project_process}%其目标 =D<br><br>一些重要的是要知道: Catarse的团队需要3天时间发送到项目创建者列表的贡献的所有信息。 So, the project creator will only be in touch with you to thank you and talk about the rewards delivery in a few days, ok?<br><br>So why don't you, in this meantime, share with all your friends this success?<br><br><div style='text-align:center;'>%{facebook_button}%{twitter_button}</div><br><br>If you want to get in touch with %{project_owner_name}, send an email to %{project_owner_email}.<br><br>If you have any doubt about Catarse, access our FAQ: <a href='http://www.catarse.me/faq' style='color: #008800';>www.catarse.me/faq</a> or send an email to <a href='mail_to:contato@catarse.me' style='color: #008800;'>contato@catarse.me</a><br>"
+        facebook_text: "万岁！该项目'%{name}', 这是我作出了贡献，是成功的Catarse!"
+        notification_text: "万岁！该项目%{link}你贡献是成功的！口耳相传!"
+        reward_notification_text: "不久,%{link}将与您联系，提供您的奖励。请尽情享受!"
+        twitter_text: "万岁！该项目'%{name}', 这是我作出了贡献，是成功的 @catarse! %{short_url}"
+      unsuccessful:
+        email_subject: "该项目%{project_name}没有Catarse资金。"
+        email_text: '不幸的是，项目%{project_link}, 你已经做出了贡献，并没有达到其目标，并没有在资金Catarse。<br><br>所以，你已经收到<strong>%{value}</strong> 在积分贡献等项目。你能满足别人%{project_category}在项目%{explore_category_link}.<br><br>您也可以通过单击要求退款%{credits_link}。请记住，你在Catarse签署了使用%{user_provider}。如果你在这个过程中的一些困难，请不要羞辱，发送电子邮件至financeiro@catarse.me 主题为“退款 - 登录问题”。<br><br>如果因任何原因，你想联系%{project_owner_name},发送电子邮件至%{project_owner_email}.<br><br>如果您有任何疑问等，请访问我们的常见问题，或发送电子邮件至<a href="mail_to:contato@catarse.me" style="color: #008800;">contato@catarse.me</a>.<br>'
+        notification_text: "您已收到%{value}在积分贡献等项目。如果你愿意，你可以要求退款%{link}."
+        unsuccessful_text: "该项目%{link}你贡献不出了资金。下一次吧!"
+    video_regex_validation: "只有Vimeo的网址被允许"
+    display_status:
+      expired: 过期
+      failed: "没有资金积累"
+      successful: 资助
+      waiting_confirmation: 等候
+      waiting_funds: 等候
+      not_reached_goal: 等候
+      reached_goal: 资助
+      draft: "草案"
+  projects:
+    no_projects: "%{name}还没有开始Catarse任何项目呢。我们不知道灵感会打这些天!"
+    no_projects_current_user_html: "您还没有提交任何项目Catarse呢。让灵感和流动%{link}开始!"
+    title: "%{name}的项目"
+    title_current_user: "我的项目"
+    show:
+      rejected: "本项目不符合我们的<a href='https://docs.google.com/document/d/1Heh9LlvoSoD0lUfbmV5WlISJ3nqmGpEQiw15TBuCn-0/edit' target='_blank'>选择标准。</a>"
+      waiting: "该项目正在等待审批，很快我们就会知道它是否会在Catarse网上去 ;)"
+      waiting_owner: "要编辑的项目信息，点击“编辑项目”选项卡。奖励你可以在编辑栏的奖励。"
+      about_title: "关于这个项目"
+      no_rewards_warning_title: '在这里创建您的奖励'
+      no_rewards_warning: "不要发疯！想想你要救他们，包括在您的预算这些费用。人们把他们对你的信任，不要孩子在身边!"
+      reports:
+        no_contributions: "这个项目没有任何贡献呢。"
+        link_reports: '下载报告'
+        all_contributions: '所有捐款'
+        all_contributions_without_reward: "不选择任何奖励的所有贡献"
+        link_reward: '下载所选奖励贡献的报告'
+      menu:
+        about: 关于
+        contributions: 捐款
+        comments: 评论
+        updates: 更新
+        edit: 编辑
+        reports: 报告
+        add_reward: ‘添加奖励’
+      share: 分享
+      contribute_project:
+        submit: "返回这个项目"
+        display_status:
+          reached_goal: "该项目将取得成功，并资助了%{date}"
+          not_reached_goal: "该项目将仅在至少资助%{goal}是直到贡献%{date}"
+          failed: "这个项目没有达到目标%{goal}直到%{date}并没有资金"
+          successful: "这个项目是成功的，并资助了%{date}"
+          waiting_funds: "从付款等待确认知道这个项目将得到资助。"
+          draft: "该项目是在草稿模式下，不开的捐款呢。"
+        reached_of: "达到"
+    contributions:
+      contribution:
+        anonymous_contribution: "匿名捐款"
+        anonymous_description: "选择匿名"
+        no_reward: "这方面的贡献并没有挑选奖励"
+      review:
+        error: "哎呀。在注册后你有一个错误。请重试。"
+      show:
+        error: "哎呀。您只能贡献一个项目后，访问该页面。"
+        moip_message: "您的交易是“授权”，你MoIP业务代码“%{code}″.<br>如果您对这次交易有任何疑问，请直接联系MoIP业务。"
+        header_subtitle: "如果没有你，也许这个项目会不会有机会。欢迎团队!"
+        header_title: "谢谢! :D"
+        text_subtitle: "告诉大家你只是做了什么"
+        recommended_projects: "你可能会喜欢这些其他项目:"
+        text_title_html: "您是现在做的一切，使该团队的一部分%{link}发生。"
+        title: "谢谢"
+      checkout:
+        no_credits: "您没有足够的积分，以促进这个项目。"
+        success: "你的贡献已成功进行。多谢!"
+      new:
+        cannot_contribute: "这是不可能的，现在来推动这一项目。请，有帮助其他项目。"
+        header:
+          subtitle: "你只是几步之遥的发挥作用，并成为该项目的一部分。"
+          title: "哦耶!"
+        no_reward: "谢谢。我只是想帮助这个项目。"
+        submit: "审查并进行结算"
+        title: "贡献%{name}"
+      edit:
+        brazil_address_title: '当你的贡献是在巴西填写'
+        live_in_brazil: "如果你住在巴西，请选中该复选框"
+        credits_notice_html: "这笔捐款将与祈祷，你的积分。确认后，您将有<strong>%{credits}</strong>在积分贡献等项目。"
+        error: "哎呀。在注册您的贡献有一个错误。请重试。"
+        international:
+          description: "您可以使用PayPal进行国际支付"
+          important_html: "<p>使用PayPal是通常的国际付款方式。那是因为你只有60天的时间收到退款最终无需支付任何费用。</p><p>In case you can make the regular payment through MoIP, we recommend you to do it.</p><p>But if that's not possible, don't worry: you'll always be able to receive your money back. Only, in case your refund is made more than 60 days after your payment, you'll have to pay PayPal's fee, which is 5,4% + R$0,60 per transaction.</p>"
+          submit: "进行PayPal的结帐"
+          title: "想使用一个国际支付?"
+        review_with_reward_html: "你将与贡献<strong>%{value}</strong>并收到以下奖励:"
+        review_without_reward_html: "你将与贡献<strong>%{value}</strong>但你不希望任何报酬的。"
+        submit:
+          credits: "确认"
+          moip: "继续执行MoIP业务的结账"
+        subtitle: "这是最后一步，以赚取差价，并成为该项目的一部分。"
+        title: "填写评估数据"
+        choose_payment: "你想如何支付?"
+        choose_payment_subtitle: "下面选择付款方式"
+        choose_credit_card: "PayPal"
+        choose_boleto: "来自巴西付款"
+        you_are_about_html: "您将要成为将尽一切努力使团队的一部分%{link}发送。"
+        pay_with: "支付使用"
+    create:
+      success: "您的项目已成功创建！我们会尽快与您联系。多谢!"
+    update:
+      success: "更新"
+    form:
+      permalink_hint: '简化您的项目的URL。认为你的担保人需要记住的地址分享你的项目。'
+      add_reward: "加入奖励"
+      important_html: "请注意，Catarse将收取13％，如果你的项目是成功的。增加这个值你的预算，以无惊喜执行项目。"
+      project_warning:
+        content_html: "要选择你的项目？不要忘记阅读%{link}."
+        help_link: "我们的指南"
+      rewards_description: "我们相信，以激励人们贡献一个项目的最好办法是提供优秀的 - 和创意！ - 奖励。人人都爱限量版，独特的东西和快乐体验（政党，糖果，气球旅行！）。花一些时间投入到创造性的奖励，人们会感兴趣。"
+      rewards_title: 奖励
+      submit: "保存草稿"
+    index_header:
+      subtitle: "基金项目协作，成为更大的东西的一部分。推进集体catharsis！你缺少的一部分，在这个故事。"
+      subtitle_html: "基金项目协作，成为更大的东西的一部分。<br/>推进集体catharsis！你缺少的一部分，在这个故事。"
+      title: "让你相信发生的项目"
+    recommended_header:
+      suggest_for_you: "建议你"
+      highlight_project: "特色项目"
+      guidelines: "如何工作"
+      guidelines_subtitle: "开始了解Catarse"
+    pending:
+      can_finish: "是否可以完成?"
+      finished: 完成?
+      home_page: "首页?"
+      id: Id
+      name: 名字
+      no_projects: "没有发现项目。"
+      order: 订单
+      project: 项目
+      slug: 拖延
+      recommended: 推荐?
+      rejected: 拒绝?
+      submit: 搜索
+      title: "项目管理"
+      user: 用户
+      visible: 可见?
+    pending_contributions:
+      anonymous: 匿名?
+      confirmed: 确认?
+      credits: "使用积分?"
+      id: Id
+      key: key
+      no_contributions: "没有找到的贡献。"
+      project: 项目
+      refunded: 退还?
+      requested_refund: "要求退款?"
+      reward: 退款
+      submit: 搜索
+      title: "贡献管理"
+      total_contributed: 贡献
+      total_contributors: 贡献者
+      total_contributions: 贡献
+      total_users: 用户
+      user: 用户
+      value: 值
+    project:
+      contributed: 贡献
+      reached: 到达
+    project_contributions:
+      empty: "没有人贡献了这个项目至今。如何关于是第一个?"
+      confirmed: "确认"
+      pending: "有待"
+    project_header:
+      subtitle_html: "一个项目%{link}"
+      without_city: "在一个项目"
+      with_city: "在一个项目%{category_name}, 在%{city}, 由%{author}"
+    project_updates:
+      empty: "这个项目没有更新呢。但观望 =D"
+      submit: "发送更新"
+      comment: "更新文本"
+      exclusive: "捐款只可见"
+      title: "更新的标题"
+      destroy: "删除更新"
+      destroy_confirmation: "你想删除更新?"
+      warning: '记住，每一个新的岗位直接转到他的支持者的电子邮件。因此，在发送前检查你的文字好。'
+    rewards:
+      reward_title: "给予%{minimum}或更多"
+      reward_deliver_time: "预计交货: %{estimate}"
+      contributions_to_confirm:
+        one:  "1个捐款确认"
+        other: "%{count}个捐款现在需要确认。"
+      title: "促进和接收..."
+    send_mail:
+      success: "您的项目已成功发送！我们会尽快与您联系。多谢!"
+    new:
+      legend_html: "填写下面的表格后，你会在草稿模式下收到的项目页面。在这次选秀，你会为你的贡献增加回报。您也可以与朋友分享的页面，收集反馈和锐化您的项目，甚至更多。<br><br>填写以下信息不明确的，但请记住，更一致的，你在你的项目提交，速度就越快。<br><br><b>非常重要:</b> <i>Catharsis固化平台，这意味着我们的董事会将评估的重点，在草案的可行性和项目的一致性。如果我们明白，您的项目不符合我们的<a href='https://docs.google.com/a/catarse.me/document/d/1wLDS2lphQ6monovg9rEaTIDcxBD3FRZV9dfGKmajyj8/edit' target='_blank' >选择标准</a>,它可以由策展人团队被拒绝。</i>"
+      permalink_important: '尽量不要使用下划线，连字符等。'
+      permalink_hint: '简单。你的贡献应该能够记住的网址到您的项目 ;)'
+      name_important: "不要超过50个字符"
+      online_days_important: "60天的最大"
+      about_important: "不要太长！表明链接，使人们可以更多地了解你的工作"
+      important_html: '请记住13％的费用由Catarse收取的情况下，你达到你的财务目标。只需将您的最终预算由0.87找到折现后的金额。'
+      send_project: "我想提交我的项目。"
+      video_important: "该视频必须的Vimeo或YouTube托管。在这里粘贴网址!"
+      more_links_important: "这是非常重要的使用社交媒体来传播有关你的项目，搞网络为会议取得圆满成功"
+      first_contributions_important: "这些人到项目的成功。"
+      traffic_sources_important: "耶！我们到达了最后一个问题。"
+      headline_important: "这是你的项目的摘要。 140个字符上限！:D"
+      tags_important: "检查其他项目的类别<a href='%{href}' target='_blank'>这里!</a>!."
+      subtitle: "做到这一点的时间就是现在！我们真的想知道你在做什么..."
+      title: "分享你的项目"
+      about: "描述你的项目，有多少你需要"
+      category: "项目类别"
+      how_much_you_need: "多少钱你想提高?"
+      about_hint: "告诉我们一些关于你想做什么，你需要多少和什么。是短暂的，准时的，但不要忘了给读者的东西，将它们移动。毕竟，这是你的创作，他们需要看到你的激情正在发生!"
+      contact: "留下您的电子邮件地址，以便我们与您联系"
+      links: "我们在哪里可以找到更多关于你和你的项目?"
+      links_hint: "让我们尽可能多的链接，你有，所以我们可以了解你的工作和你的项目更好。并不一定是正式的东西花哨或者，仅仅是一些有用的链接。"
+      video: "你的项目已经有了一个视频?"
+      video_hint: "一个 Vimeo / Youtube 链接"
+      twitter: "已有twitter账户?"
+      facebook: "已有facebook账户?"
+      blog: "有一个关于该项目的博客?"
+      know_us_via: "你是如何遇见Catarse?"
+      how_works: "如何调动捐款筹集所需执法?"
+      project_warning:
+        content_html: "要选择你的项目？不要忘记阅读 %{link}."
+        help_link: "我们的指南"
+      rewards: "你想提供什么样的回报?"
+      rewards_hint: "我们相信，以激励人们贡献一个项目的最好办法是提供优秀的 - 和创意！ - 奖励。人人都爱限量版，独特的东西和快乐体验（政党，糖果，气球旅行！）。花一些时间投入到创造性的奖励，人们会感兴趣。"
+      submit: "保存草稿"
+      subtitle: "做到这一点的时间就是现在！我们真的想知道你在做什么..."
+      title: "提交您的项目"
+    twitter:
+      take_a_look: "查看项目%{name}在@catarse"
+    video_embed:
+      a_project_by_html: "一个项目在 %{link} 上"
+  projects_mailer:
+    start_project_email:
+      subject: "按计划发送 %{name}"
+      subject_html: "按计划发送 %{link}"
+
+  channels:
+    subscribed: "+ %{count} 关注着"
+    header:
+      submit: "发送项目"
+      how_works: "如何工作"
+      what_is_channel: "什么是一个通道?"
+      contact: "联系"
+      profile: "我的资料"
+      my_credits: "我的积分"
+      logout: "登出"
+      signup: "注册"
+      signin: "登录"
+    footer:
+      terms: "条款"
+      privacy_policy: "隐私"
+      how_works: "如何运作"
+      contact: "联系"
+      what_is_channel: "什么是一个通道?"
+    admin:
+      statistics:
+        title: "关注者"
+        download: "下载列表"
+      management:
+        title: "管理"
+        total: "项目"
+      filter:
+        title: "过滤"
+        by_id: "按照 ID"
+        between_created_at: "之间创建"
+        pg_search: "项目"
+        with_state: "随着国家"
+        user_name_contains: "用户"
+        order_table: "订单"
+        submit: "过滤"
+      table:
+        name: "标题"
+        category: "类别"
+        user_id: "用户"
+        goal: "目标"
+        pledged: "质押"
+        total_contributions: "捐款"
+        recommended: "推荐"
+        online_date: "已发布"
+        expires_at: "已完成"
+        state: "状态"
+        approve: "批准"
+        reject: "拒绝"
+        send_to_draft: "发送起草"
+    edit: "更新通道"
+
+  registrations:
+    new:
+      site_title: "注册"
+      submit: "注册"
+      title: "使用您的电子邮箱注册"
+  remaining_plural: 剩
+  remaining_singular: 剩
+  remove: 删除
+  require_admin: "你必须是管理员才能执行此操作。"
+  require_login: "你必须先登录才能执行此操作。"
+  require_permission: "您没有执行此操作的权限。"
+  reward:
+    display_remaining: "%{remaining} 中 %{maximum} 可用的"
+    dont_want: "我不希望奖励"
+    limited: 限制
+    sold_out: "已售完"
+  sessions:
+    auth:
+      success: "成功登录。欢迎, %{name}!"
+    destroy:
+      success: "成功退出。再见!"
+    failure:
+      error: "有同时登录一个错误，请重试。"
+
+
+  static:
+    guidelines_contributions:
+      title: "我想贡献一个项目!"
+      subtitle: "了解如何一步一步对促进Catarse项目。"
+      introduction: "Catarse是从事你相信一个事业的好方法"
+      legend_html: "我们认为，作为一个项目的一部分，是什么样的事情，有时我们真的不知道为什么，但它确实不错的。"
+      title_one: "发现项目"
+      step_one: "第一步是要了解该项目。观看视频，阅读说明，浏览的链接。如果你确信这个项目不能只停留在纸面上，走一步前进!"
+      title_two: "决定用多少你会有助于它"
+      step_two: "一个很好的方式来决定多少贡献与它的翻阅这些奖励提供换取您的贡献。而且银行对帐单。"
+      title_three: "完成您的贡献"
+      step_three: "您的信息填写，并发表评论！那么，决定什么付款方式最能满足您的需求。"
+      title_four: "口耳相传!"
+      step_four: "现在，你是在同一条船上，项目创建者。流传着一句话在网络上的，并敬请关注上的更新。"
+      title_requirements: "记住: 在Catarse它的“全有或全无”"
+      successful_title: "如果项目达到或超过其财政目标 ..."
+      successful: "该项目被认为是成功的！创建者得到金钱和联系人的所有支持者。"
+      not_success_title: "如果项目没有达到目标..."
+      not_success: "你得到的支持全额贷款的形式（支持其他项目中）。如果不请你，你可以要求你的钱回来，根据该规则<a href='%{terms}' target='_blank'>使用条款</a>."
+      title_not_funded: "如果项目没有达到目标，我怎么使用我的积分?"
+      not_funded: "您将收到Catarse积分。你选择做贡献的另一个项目，在屏幕上选择奖励的那一刻，有将不得不使用你的积分领域。"
+      more_questions: "我渴望支持的一个项目，还有什么我需要知道?"
+      title_contribution: "我怎么知道我的支持是成功的?"
+      contribution: "您会收到一封确认邮件。而留在你促成该项目的页面调整的贡献选项卡上。"
+      title_rewards: "如果该项目资助的，我怎么得到我的奖励?"
+      rewards: "这是该项目的创造者的责任与您联系并安排如何提供选择的奖励。如果没有，你需要发送一封电子邮件给他/她声称它！如果你没有得到答案......与我们联系，以便我们能够给他们的牢骚声 = D"
+      title_credits: "如果项目没有达到目标，我怎么使用我的积分?"
+      credits: "您将收到Catarse积分。你选择做贡献的另一个项目，在屏幕上选择奖励的那一刻，有将不得不使用你的积分领域。"
+      title_money: "果我不想用积分?"
+      money: "没问题！你只需要在您的个人资料（我的积分）进入，并要求退款。如果你付出了借记卡或钢坯，你需要在MoIP业务开户。如果你使用信用卡的值会回到你的下期账单。"
+      other_contributions: "我想要更多！我可以帮助其他的方法?"
+      intro: "结识不同的方法来帮助你相信项目"
+      other_one: "带上另外两个朋友跟你做了同样的数额做出贡献"
+      other_two: "广泛宣传，让每一位。告诉他们是多么伟大，你就贡献了Catarse项目。"
+      other_three: "你有一个朋友，谁是一个记者？试着让他/她来发布他/她的博客一些事情。"
+      other_four: "做出贡献的视频播放您认为该项目。像这些家伙所做的:https://vimeo.com/46233018"
+      other_five: "发送电子邮件到项目创建者问你如何能帮助更大。"
+      submit: "非常酷!"
+      send_project: "我想提交我的项目 "
+      explore_curious: "我在船上!"
+      explore_projects: "我想贡献一个项目"
+    guidelines:
+      title: "它是如何工作"
+      subtitle: "了解Catarse更好。"
+      introduction_html: "Catarse是个人谁在一起<br>启用实现创意项目之间交流的空间。"
+      legend_html: "我们相信，连接人们，相对于事业共享价值;一个想法;一个项目，是让他们来实现的最佳途径之一。 <br><br>非常欢迎！这是你的空间一样，因为它是我们的，毕竟，Catarse每天的人在寻找新的方法来给生活，从社会本身更多举措的会议情况。我们理解这是一种替代政府的资源，赞助企业和银行贷款 = D"
+      submit: "提交一个项目"
+      send_project: "了解如何提交项目"
+      explore_curious: "贡献一个项目"
+      explore_projects: "了解如何促进项目"
+    about:
+      title: "我们是谁?"
+      subtitle: "满足可爱的团伙，使得这整个事情发生 <3"
+      introduction: "他们是谁?他们怎么养活呢？他们是如何联网？现在可以看到这一切在“我们是谁？”。"
+      name_one: "路易斯·里贝罗奥塔维奥"
+      title_one: "杀手项目费舍尔"
+      text_one: "乌贝拉巴。懒惰爱好者，沉迷于保持创造性结构和运行人与人之间的相遇推广。"
+      name_two: "迭戈瑞·贝格"
+      title_two: "哲学家住在一个桶"
+      text_two: "诗人，音乐家，舞蹈家探戈和吸毒者卡尔维诺和萨拉马戈的学徒，喜欢挖掘美好的事物和有才华的人在互联网的角落尘土飞扬。"
+      name_three: "卢西亚·娜丝妮"
+      title_three: "使之成为现实的学徒"
+      text_three: "色彩和对比度爱好者，诗人和艺术家的性质，好奇的文化，策展人意外。"
+      name_four: "雷纳托·加西亚"
+      title_four: "Catarse的西尔维奥·桑托斯（一巴西的主机和企业家）"
+      text_four: "集体主义。在合作1信念接一个，没有权威，一个更公平的世界。足球和滑板狂热。所有这一切都伴随着一个很好的桑巴VS国立说唱配乐。"
+      name_five: "罗德里戈·马亚"
+      title_five: "信息混音"
+      text_five: "实用主义者谁爱即兴，有一个低沉的声音和艺术的爆发。由人民和一切形式的运动图像的着迷。"
+      name_six: "迪奥戈巴祖斯"
+      title_six: "数据库大主教"
+      text_six: "数据架构师。喜欢不言自明的，自我指涉和自我清洁结构。"
+      name_seven: "以利色·鲁兹"
+      title_seven: "设计师页脚"
+      text_seven: "彻底疯狂，喜欢冒险成册，在淋浴时唱歌，喜欢探索无花果果酱罐。"
+      name_eight: "阿德里亚·诺贝宁"
+      title_eight: "程序员"
+      text_eight: "当不编程我喜欢设计电路和弹着钢琴。"
+      name_nine: "安东尼奥·罗伯托"
+      title_nine: "消防员"
+      text_nine: "谁住在Tonland一位同行的疯狂发展"
+    faq:
+      title: "常问问题"
+    guidelines_start:
+      accept: "我已阅读并理解catarse是如何工作的。"
+      explore_curious: "需环顾四周!"
+      explore_projects: "我想探索项目。"
+      submit: "下一步!"
+      send_project: "我想提交我的项目。"
+      subtitle: "明白了，一步一步，如何将项目通过资金Catarse。"
+      title: "Catarse如何工作?"
+      introduction: "Catarse是不同的 - 和协作 - 的方式，使您的项目成为现实。"
+      legend_html: "使用本指南，以决定是否Catarse是正确的工具来完成工作。"
+      title_one: "提交您的项目"
+      step_one: "项目的行动！我们接受他们张开双臂无论是小的，大的，搞笑的，严肃的，传统的，创新......我们爱，需要一点钱，并在他们的社区有很大的影响的项目。"
+      title_two: "回顾"
+      step_two: "我们收到您的项目，这将是我们的评审小组筛选的，这里的目的是为了给你提示，以最大限度地提高你的项目的机会成为成功的，以及滤波无感的项目。请记住，我们要你的项目要取得成功，你做尽可能多 ;)"
+      title_three: "让我们在线!?"
+      step_three: "当你的项目已准备就绪，现在是时候去住，并计划你的运动。在此期间，您将需要聘请尽可能多的人能够达到自己的目标。"
+      title_four: "这是全有或全无"
+      step_four: "如果你的项目没有达到它的目标时间用完之前，所有捐款将收到认捐金额在信贷及更高版本，如果他们愿意，可以要求退款。"
+      title_requirements: "要求你的项目提交Catarse"
+      creative: "创意和有限"
+      collective: "集体补助"
+      nonprofit: "非财政奖励"
+      donation: "没有善心或“资助我的生活”项目"
+      video: "制作视频"
+      more_questions: "好了，但告诉我更多有关这Catarse..."
+      title_magic: "我们的神奇的公式"
+      magic: "我们认为，人们拥有共同的价值观提供了一个聚会的地方是把项目变成现实的最佳途径。使用Catarse作为一个渠道，引导网络朝着一个共同的目标。"
+      title_money: "哪里的钱，资助来自?"
+      money: "至少有50％将来自于你自己的人脉网络。在这种方式下，Catarse是一种让你更接近那个喜欢你的工作，并扩大这一网络，通过社交网络，报纸，博客分享，当然，你最喜欢的酒吧的人。"
+      title_work: "它采取了大量的工作?"
+      work: "一个loooot！有没有“轻松在互联网上赚钱”。你有你自己的项目中的工作很多，但经验是值得的 - 我们向您保证：D，你将有Catarse后，你的项目背后一个更强大的网络。"
+      title_costs: "需要多少费用来使用Catarse?"
+      costs: "提交你的项目是免费的。现在，当你的项目获得批准，并已达到其目标，Catarse将适用13％的费用，这个值既包括Catarse费和支付网关费。"
+      why: "为什么Catarse?"
+      intro: "首先，这是很好的，你知道为什么我们认为这种新的方式来资助的项目是惊人的:"
+      why_one: "通过创建一个非常强大的债券与您的网络，这种活动敞开大门，以新的项目，伙伴关系和其他意外的连接。"
+      why_two: "如果项目顺利连接，它们可以传播，很快，来了很多人，扩大你的网络和加强人们的基地周围的项目。"
+      why_three: "最小的繁文缛节和低财务风险。没有利率，没有入门费...和很多的乐趣和感动。"
+    guidelines_tips:
+      title: "几乎没有!"
+      subtitle: "在提交您的项目，这是很好的考虑了几个重要的点。"
+      introduction_html: "我们知道，你不能等到有你的项目在线，但第一个答案<br> (在一张纸)下面的问题。"
+      legend_html: "有明确这些问题的答案将有助于大大在构建你的项目，<br>增加，这将是成功的机会。"
+      title_one: "是什么促使你做这个项目?"
+      tip_one: "当他们意识到社会或谁领导运动的人的事业的重要性，人们才搞。因此，很清楚什么是你的灵感，让它溢出到项目中。"
+      title_two: "什么是焦点?"
+      tip_two: "Catarse是一个很好的方式，采取的第一个步骤。因此，定义得非常好项目的目的，以及谁将会从中受益。明确界定你的目标是要吸引人们的最佳途径之一。"
+      title_three: "什么是你的得分?"
+      tip_three: "计算的项目执行和交付奖励的所有费用。也考虑到你的能力，搞的人，以确定您的财务目标。"
+      title_four: "什么是你的最后期限筹款?"
+      tip_four: "不要低估一个活动的工作。您将有整个期间的项目现场努力工作，因此，建议您不要胎在这个过程中自己太多。我们的建议是：活动的40天。"
+      title_five: "你有没有想过这个项目奖励?"
+      tip_five: "请记住，回报是公众的承诺。所以，觉得非常好，在他们提供给你的贡献阐述他们的时候，还有物流。我们的建议：考虑非物质奖励：下载，体验，课程网上吻。"
+      title_six: "是你的视频就绪?"
+      tip_six: "该视频是项目的名片。它是通过它的贡献将与你的事业取得联系。因此，要特别注意在脚本中，音频和图像质量。高清建议。"
+      title_seven: "您将如何调动您的网络?"
+      tip_seven: "你需要对你将如何挑起你的网络，并说服它有助于你的项目一个清晰的思路。分发您每周的工作，并根据您是如何关闭改变你的方法与网络。"
+      title_eight: "如何将这些钱用于?"
+      tip_eight: "创建一个Google文档的电子表格，并打开您的预算向众人展示如何，这笔资金将被使用。透明度是应有尽有。"
+      explore_curious: "只需环顾四周!"
+      explore_projects: "我想探索项目。"
+      submit: "下一步!"
+      send_project: "我想提交我的项目。"
+      guide: "点击此处下载一个完整的指南与所有的技巧，阐述在Catarse项目。"
+    privacy:
+      title: "隐私政策"
+    terms:
+      title: "使用条款"
+  terms: "使用条款"
+  user:
+    contributions_text:
+      many: "这个贡献及其他%{total}项目"
+      one: "只贡献了这个项目到现在为止"
+      two: "这个贡献和1个其他项目"
+    no_name: 未命名
+    google_account: "Google账户"
+  users:
+    project:
+      confirmed: "确认"
+      refunded: "退还"
+      requested_refund: "要求退款"
+      waiting_confirmation: "等待确认"
+    set_email:
+      site_title: '定义你的电子邮件地址'
+      title: '定义你的电子邮件地址'
+      submit: '保存我的电子邮件和进行'
+    show:
+      attention: Attention
+      tabs:
+        contributed_projects: "贡献的项目"
+        created_projects: "创建的项目"
+        comments: 评论
+        credits: 积分
+        settings: 设置
+        unsubscribes: 通知
+      user_social:
+        email: "给我发送一封邮件"
+        facebook: "facebook资料"
+        twitter: "twitter资料"
+    contributions:
+      anonymous: "匿名贡献。"
+      no_contributions: "%{name} 没有发表任何项目呢。但我们知道这只是时间问题! :D"
+      no_contributions_current_user_html: "您还没有发表任何项目呢。是否<a href=\"/\">现在开始</a>?"
+      no_reward: "你没有挑选奖励"
+      title: "项目%{name}已贡献"
+      title_current_user: "项目我已经贡献"
+      your_reward: "您的奖励"
+    unsubscribes:
+      title: "选择哪些项目要收到更新通知:"
+      updates: "我想收到项目更新"
+    current_user_fields:
+      bio_limit: '只有140个字符'
+      updated: "您的信息已更新"
+      update_social_info: "更新信息"
+      social_info: "联系方式"
+      twitter: "twitter ( 用户名 )"
+      facebook_link: "facebook 资料 (完整链接)"
+      other_link: "另一家互联网页面"
+      change_password: "更改我的密码"
+      current_password_hint: "<i>我们需要您的当前密码，以确认您的更改。</i>"
+      email_hint: "你的电子邮件将只被用于从Catarse通信，并从你的项目作出了贡献。它不会在您的个人资料中可见。当你贡献的一个项目，我们会给您的电子邮件，项目业主这样他就可以提供您的奖励。"
+      email_tooltip: "点击这里填写你的电子邮件..."
+      gravatar_hint_html: "想改变你的照片吗? 用 %{link} 与您的电子邮件。它的简单，只要上传图片，并适用于其他网站 ;)"
+      local_avatar: "我的头像"
+      submit_text: "选择你的照片"
+      submit: "提交"
+      my_data: "我的个人资料"
+      newsletter: "我希望通过电子邮件收到Catarse的新闻"
+      password_hint: "<i>留空，如果你不想去改变它。</i>"
+    header:
+      bio_tooltip: "点击这里写一下关于你..."
+      name_tooltip: "点击这里填写你的名字..."
+
+  notifications:
+    contributions:
+      to_contribution:
+        subject: "谢谢你的贡献%{project}已被证实!％（项目）"
+        text: "成功! <br />你的贡献刚刚已确认.<br /><br />检查: %{contribution_name}<br />%{contribution_value}<br />%{reward}<br /><br />%{project_name}"
+    updates:
+      subject: "如果! 更新%{project_name} 由 %{project_owner}: %{update_title}"
+      text: "%{update_title}<br />%{update_text}<br />评论? 发送它的项目页面: <a href='%{project_link}'>%{project_name}</a>."
