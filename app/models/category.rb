@@ -20,7 +20,7 @@ class Category < ActiveRecord::Base
   end
 
   def to_s
-    self.send('name_' + I18n.locale.to_s)
+    self.try(:send, "name_#{I18n.locale.to_s}") rescue self.name_pt
   end
 
   def total_online_projects

@@ -1,8 +1,8 @@
-en:
+zh-CN:
   devise:
     registrations:
       new:
-        have_account_html: "拥有一个账户? <strong>%{link}</strong>"
+        have_account_html: "拥有一个账户?"
         titles:
           site: '注册'
           header: '注册'
@@ -13,7 +13,8 @@ en:
             show_password: '显示密码'
             name: '登录名'
             password: '密码'
-            newsletter: '我想订阅Catarse的电子报刊'
+            newsletter: '我想订阅Catarse的电子新闻'
+            accept: '当你注册，你愿意接受我们的 <a href="%{terms_url}" class="alt-link" target="_blank">使用条款</a> 和 <a class="alt-link" href="%{privacy_url}" target="_blank">隐私政策</a>'
           hint:
             password_length: '必须至少6个字符。'
           inputs:

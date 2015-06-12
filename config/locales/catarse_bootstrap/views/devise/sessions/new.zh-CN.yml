@@ -1,4 +1,4 @@
-en:
+zh-CN:
   devise:
     sessions:
       new:
@@ -8,10 +8,12 @@ en:
           header: '登录'
         links:
           register: "注册"
+          password: "密码"
           forgot_password: "忘记密码"
         form:
           labels:
             remember_me: '记住我'
           inputs:
-            submit: '登录我'
+            submit: '登录'
+            password: "密码"
             facebook: '使用Facebook登录'
