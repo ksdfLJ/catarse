@@ -170,9 +170,9 @@ zh-CN:
       user:
         address_city: 城市
         address_complement: 补充地址
-          address_neighbourhood: 街区
-          address_number: 号码
-          address_state: 州
+        address_neighbourhood: 街区
+        address_number: 号码
+        address_state: 州
         address_street: 街道
         address_zip_code: "邮编"
         cpf: 'CPF / CNPJ '
